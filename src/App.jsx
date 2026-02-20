@@ -45,8 +45,8 @@ export default function App() {
             <span className="breadcrumb-current">Changelog</span>
           </div>
           <nav className="header-nav">
-            <a href="#" className="nav-link">API Docs</a>
-            <a href="#" className="nav-link">Guides</a>
+            <a href="https://docsicosys.icombilisim.com/api/rest-api/" className="nav-link" target="_blank" rel="noreferrer">API Docs</a>
+            <a href="https://docsicosys.icombilisim.com/guides/new-module/" className="nav-link" target="_blank" rel="noreferrer">Guides</a>
           </nav>
         </div>
       </header>
