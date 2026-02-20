@@ -1,0 +1,120 @@
+name: Publish Changelog
+
+# This workflow runs in each PRIVATE repo when a release is published.
+# Copy this file to every private repo and set MODULE_NAME accordingly.
+
+on:
+  release:
+    types: [published]
+
+env:
+  # Change this per repo: dms | bpm | hrm | core | web
+  MODULE_NAME: "core"
+  CHANGELOG_REPO: "icombilisim/ICOSYS-Changelog"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Parse release info
+        id: release
+        run: |
+          VERSION="${{ github.event.release.tag_name }}"
+          VERSION="${VERSION#v}"
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "date=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
+
+      - name: Convert release notes to JSON
+        id: convert
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = `${{ github.event.release.body }}`;
+            const version = '${{ steps.release.outputs.version }}';
+            const date = '${{ steps.release.outputs.date }}';
+            const module = '${{ env.MODULE_NAME }}';
+
+            const changes = [];
+            let breaking = false;
+
+            for (const line of body.split('\n')) {
+              const trimmed = line.trim();
+              if (!trimmed || trimmed.startsWith('#')) continue;
+
+              if (trimmed.includes('BREAKING CHANGE') || trimmed.includes('!:')) {
+                breaking = true;
+              }
+
+              // Matches: "* **feat:** desc" or "* feat: desc" or "- feat(scope): desc"
+              const match = trimmed.match(
+                /^[\*\-]\s*\*{0,2}(feat|fix|perf|refactor|security|docs|chore)\!?\*{0,2}[\:\(]?\s*(.+)/i
+              );
+              if (match) {
+                const type = match[1].toLowerCase();
+                let text = match[2].replace(/\*{0,2}$/, '').trim();
+                // Strip scope: "(dms): text" → "text"
+                text = text.replace(/^\([^)]*\)[\:\s]*/, '').trim();
+                if (['feat', 'fix', 'perf', 'refactor', 'security'].includes(type)) {
+                  changes.push({ type, text });
+                }
+              }
+            }
+
+            // Fallback: use first line as feat
+            if (changes.length === 0) {
+              const firstLine = body.split('\n')[0].replace(/^[\*\-\#\s]+/, '').trim();
+              changes.push({ type: 'feat', text: firstLine || `v${version} release` });
+            }
+
+            const firstFeat = changes.find(c => c.type === 'feat') || changes[0];
+            const summary = firstFeat.text.substring(0, 100);
+
+            const release = { version, date, module, breaking, summary, changes };
+            core.setOutput('release_json', JSON.stringify(release));
+            console.log('Parsed release:', JSON.stringify(release, null, 2));
+
+      - name: Checkout changelog repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.CHANGELOG_REPO }}
+          token: ${{ secrets.CHANGELOG_PAT }}
+          path: changelog-repo
+
+      - name: Update releases.json
+        run: |
+          cd changelog-repo
+          RELEASE_JSON='${{ steps.convert.outputs.release_json }}'
+
+          [ ! -f src/data/releases.json ] && echo "[]" > src/data/releases.json
+
+          echo "$RELEASE_JSON" | python3 -c "
+          import json, sys
+          new_release = json.load(sys.stdin)
+          with open('src/data/releases.json', 'r') as f:
+              releases = json.load(f)
+          exists = any(
+              r['version'] == new_release['version'] and r['module'] == new_release['module']
+              for r in releases
+          )
+          if not exists:
+              releases.insert(0, new_release)
+              with open('src/data/releases.json', 'w') as f:
+                  json.dump(releases, f, indent=2, ensure_ascii=False)
+              print(f'Added {new_release[\"module\"]} v{new_release[\"version\"]}')
+          else:
+              print(f'Skipped duplicate: {new_release[\"module\"]} v{new_release[\"version\"]}')
+          "
+
+      - name: Commit and push
+        run: |
+          cd changelog-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/releases.json
+          git diff --cached --quiet && echo "No changes, skipping." && exit 0
+          git commit -m "changelog(${{ env.MODULE_NAME }}): add v${{ steps.release.outputs.version }}"
+          git push

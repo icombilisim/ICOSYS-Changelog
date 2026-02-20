@@ -1,0 +1,8 @@
+{
+  "all": { "label": "All", "color": "#6366f1" },
+  "dms": { "label": "DMS", "color": "#0ea5e9", "repo": "ICoSys-DMS-Service-1.0" },
+  "bpm": { "label": "BPM", "color": "#8b5cf6", "repo": "ICoSys-BPM" },
+  "hrm": { "label": "HRM", "color": "#10b981", "repo": "ICoSys-HR-Service-1.0" },
+  "core": { "label": "Core", "color": "#f59e0b", "repo": "Icglb-Services-1.0" },
+  "web": { "label": "Web", "color": "#ec4899", "repo": "ICoSys-Web-React-1.0" }
+}

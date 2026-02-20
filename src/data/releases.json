@@ -1,0 +1,83 @@
+[
+  {
+    "version": "1.6.0",
+    "date": "2026-02-20",
+    "module": "dms",
+    "breaking": false,
+    "summary": "Category-as-Policy and Versioning support",
+    "changes": [
+      { "type": "feat", "text": "DmsCategory entity for file lifecycle management (updatePolicy, deletePolicy, archivePolicy)" },
+      { "type": "feat", "text": "DmsFileVersion for version control — automatic versioning in REVISION categories" },
+      { "type": "feat", "text": "Checkout/Checkin mechanism — concurrent edit conflict protection" },
+      { "type": "feat", "text": "DmsWorkflowDefinition and DmsWorkflowStep with Flowable-ready approval templates" },
+      { "type": "feat", "text": "DmsApproval entity — multi-step sequential approval, SLA tracking and escalation" },
+      { "type": "feat", "text": "Category-based workflow assignment — admin dropdown for WF selection" }
+    ]
+  },
+  {
+    "version": "1.5.2",
+    "date": "2026-02-15",
+    "module": "dms",
+    "breaking": false,
+    "summary": "S3 StorageProvider and security improvements",
+    "changes": [
+      { "type": "feat", "text": "S3StorageProvider — Cloudflare R2, AWS S3, MinIO support" },
+      { "type": "security", "text": "Magic bytes validation for file content verification" },
+      { "type": "fix", "text": "Upload timeout issue resolved for large files (>100MB)" },
+      { "type": "perf", "text": "Presigned URL for direct S3 download — backend proxy bypass" }
+    ]
+  },
+  {
+    "version": "1.5.0",
+    "date": "2026-02-10",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "Business Partner module improvements",
+    "changes": [
+      { "type": "feat", "text": "Accrual management — automatic calculation and reporting" },
+      { "type": "feat", "text": "Product/Service association — partner-based product definitions" },
+      { "type": "fix", "text": "Contract expiry notification fixed" },
+      { "type": "refactor", "text": "BpmContractService — migration to AbstractCrudService lifecycle hooks" }
+    ]
+  },
+  {
+    "version": "4.0.5",
+    "date": "2026-02-08",
+    "module": "core",
+    "breaking": false,
+    "summary": "Security patch and CI/CD improvements",
+    "changes": [
+      { "type": "security", "text": "JWT token expiry validation hardened" },
+      { "type": "feat", "text": "GitHub Actions CI/CD pipeline — automated build, test and SonarQube analysis" },
+      { "type": "fix", "text": "TableGenerator ID synchronization issue resolved" },
+      { "type": "feat", "text": "Searchable encryption — hash column pattern for encrypted search" }
+    ]
+  },
+  {
+    "version": "2.1.0",
+    "date": "2026-02-05",
+    "module": "web",
+    "breaking": true,
+    "summary": "React 18 migration completed",
+    "changes": [
+      { "type": "feat", "text": "Full migration from JSF/PrimeFaces to React 18 + TypeScript + Vite" },
+      { "type": "feat", "text": "Property-driven form/table/layout rendering — dynamic UI via JSON config" },
+      { "type": "feat", "text": "TanStack Table integration — server-side pagination and filtering" },
+      { "type": "feat", "text": "shadcn/ui component library integration" },
+      { "type": "perf", "text": "Initial load time improved by 60% (code splitting + lazy loading)" }
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "date": "2026-02-18",
+    "module": "hrm",
+    "breaking": false,
+    "summary": "HRM module initial release",
+    "changes": [
+      { "type": "feat", "text": "Employee entity — personnel record management" },
+      { "type": "feat", "text": "Department and Position definitions — organizational hierarchy" },
+      { "type": "feat", "text": "Employee_Roles — many-to-many role assignment (Auditor, Chief Auditor, Technical Expert)" },
+      { "type": "feat", "text": "Competencies — certificate and NACE code based competency tracking" }
+    ]
+  }
+]
