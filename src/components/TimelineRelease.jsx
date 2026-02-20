@@ -28,7 +28,7 @@ export default function TimelineRelease({ release, mod, isLast }) {
           style={{
             background: mod.color,
             border: `3px solid ${mod.color}33`,
-            boxShadow: `0 0 0 4px #0f172a`,
+            boxShadow: `0 0 0 4px #f8fafc`,
           }}
         />
         {!isLast && <div className="timeline-line" />}
