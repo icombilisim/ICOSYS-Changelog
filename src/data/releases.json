@@ -1,18 +1,52 @@
 [
   {
+    "version": "1.6.1",
+    "date": "2026-02-21",
+    "module": "core",
+    "breaking": false,
+    "summary": "[1.6.1](https://github.com/icombilisim/Icglb-Services-1.0/compare/v1.6.0...v1.6.1) (2026-02-21)",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "[1.6.1](https://github.com/icombilisim/Icglb-Services-1.0/compare/v1.6.0...v1.6.1) (2026-02-21)"
+      }
+    ]
+  },
+  {
     "version": "1.4.0",
     "date": "2026-02-20",
     "module": "web",
     "breaking": false,
     "summary": "Add sub-category button on each row in DMS category tree",
     "changes": [
-      { "type": "feat", "text": "Add sub-category button on each row in DMS category tree" },
-      { "type": "fix", "text": "Filter passive accounts and add search in account link selector" },
-      { "type": "fix", "text": "Add parent category TREE_SELECT in DMS category create/edit form" },
-      { "type": "fix", "text": "Auto-generate DMS category code and disable field on form" },
-      { "type": "fix", "text": "Default status to ACTIVE on DMS category create form" },
-      { "type": "fix", "text": "Fix tree table right overflow when row actions are present" },
-      { "type": "fix", "text": "Gate tree row actions behind canCreate permission check" }
+      {
+        "type": "feat",
+        "text": "Add sub-category button on each row in DMS category tree"
+      },
+      {
+        "type": "fix",
+        "text": "Filter passive accounts and add search in account link selector"
+      },
+      {
+        "type": "fix",
+        "text": "Add parent category TREE_SELECT in DMS category create/edit form"
+      },
+      {
+        "type": "fix",
+        "text": "Auto-generate DMS category code and disable field on form"
+      },
+      {
+        "type": "fix",
+        "text": "Default status to ACTIVE on DMS category create form"
+      },
+      {
+        "type": "fix",
+        "text": "Fix tree table right overflow when row actions are present"
+      },
+      {
+        "type": "fix",
+        "text": "Gate tree row actions behind canCreate permission check"
+      }
     ]
   },
   {
@@ -22,7 +56,10 @@
     "breaking": false,
     "summary": "Add linked-accounts list endpoint for global user view",
     "changes": [
-      { "type": "feat", "text": "Add linked-accounts list endpoint for global user view" }
+      {
+        "type": "feat",
+        "text": "Add linked-accounts list endpoint for global user view"
+      }
     ]
   },
   {
@@ -32,7 +69,10 @@
     "breaking": false,
     "summary": "Add linked-accounts list endpoint for global user view",
     "changes": [
-      { "type": "feat", "text": "Add linked-accounts list endpoint for global user view" }
+      {
+        "type": "feat",
+        "text": "Add linked-accounts list endpoint for global user view"
+      }
     ]
   },
   {
@@ -42,7 +82,10 @@
     "breaking": false,
     "summary": "Correct id-sync config: allocation-size and log-level",
     "changes": [
-      { "type": "fix", "text": "Correct id-sync config: allocation-size and log-level" }
+      {
+        "type": "fix",
+        "text": "Correct id-sync config: allocation-size and log-level"
+      }
     ]
   },
   {
@@ -52,13 +95,34 @@
     "breaking": false,
     "summary": "Per-category file size and type limits, usage log improvements",
     "changes": [
-      { "type": "feat", "text": "Add per-category file size and type limits" },
-      { "type": "fix", "text": "Add GET /{id} endpoint to DmsUsageLogController" },
-      { "type": "fix", "text": "Correct DmsUsageLog allocationSize from 50 to 1" },
-      { "type": "fix", "text": "Correct id-sync config: allocation-size and log-level" },
-      { "type": "fix", "text": "Fix 400 Bad Request errors on DMS list filter endpoints" },
-      { "type": "fix", "text": "Populate null user fields in dms_file, dms_audit_log, dms_usage_log" },
-      { "type": "fix", "text": "Populate userName in usage log via LoggedUser ThreadLocal" }
+      {
+        "type": "feat",
+        "text": "Add per-category file size and type limits"
+      },
+      {
+        "type": "fix",
+        "text": "Add GET /{id} endpoint to DmsUsageLogController"
+      },
+      {
+        "type": "fix",
+        "text": "Correct DmsUsageLog allocationSize from 50 to 1"
+      },
+      {
+        "type": "fix",
+        "text": "Correct id-sync config: allocation-size and log-level"
+      },
+      {
+        "type": "fix",
+        "text": "Fix 400 Bad Request errors on DMS list filter endpoints"
+      },
+      {
+        "type": "fix",
+        "text": "Populate null user fields in dms_file, dms_audit_log, dms_usage_log"
+      },
+      {
+        "type": "fix",
+        "text": "Populate userName in usage log via LoggedUser ThreadLocal"
+      }
     ]
   },
   {
@@ -68,8 +132,14 @@
     "breaking": false,
     "summary": "Fix delete refresh race condition and account-links tab view errors",
     "changes": [
-      { "type": "fix", "text": "Await delete before refreshing list to prevent stale reload" },
-      { "type": "fix", "text": "Fix global-user-info view errors and complete account-links tab" }
+      {
+        "type": "fix",
+        "text": "Await delete before refreshing list to prevent stale reload"
+      },
+      {
+        "type": "fix",
+        "text": "Fix global-user-info view errors and complete account-links tab"
+      }
     ]
   },
   {
@@ -79,7 +149,10 @@
     "breaking": false,
     "summary": "Bump icglb-entities to 1.3.0 and icom-micro-services-api to 1.3.1",
     "changes": [
-      { "type": "fix", "text": "Bump icglb-entities to 1.3.0 and icom-micro-services-api to 1.3.1" }
+      {
+        "type": "fix",
+        "text": "Bump icglb-entities to 1.3.0 and icom-micro-services-api to 1.3.1"
+      }
     ]
   },
   {
@@ -89,8 +162,14 @@
     "breaking": false,
     "summary": "Dependency bumps and id-sync config corrections",
     "changes": [
-      { "type": "fix", "text": "Bump icglb-entities to 1.3.0 and icom-micro-services-api to 1.3.1" },
-      { "type": "fix", "text": "Correct id-sync config: allocation-size and log-level" }
+      {
+        "type": "fix",
+        "text": "Bump icglb-entities to 1.3.0 and icom-micro-services-api to 1.3.1"
+      },
+      {
+        "type": "fix",
+        "text": "Correct id-sync config: allocation-size and log-level"
+      }
     ]
   },
   {
@@ -100,7 +179,10 @@
     "breaking": false,
     "summary": "Correct id-sync config: allocation-size and log-level",
     "changes": [
-      { "type": "fix", "text": "Correct id-sync config: allocation-size and log-level" }
+      {
+        "type": "fix",
+        "text": "Correct id-sync config: allocation-size and log-level"
+      }
     ]
   },
   {
@@ -110,7 +192,10 @@
     "breaking": false,
     "summary": "Standardize all TreeTable usages with paginateExpandedRows fix",
     "changes": [
-      { "type": "feat", "text": "Standardize all TreeTable usages with paginateExpandedRows fix" }
+      {
+        "type": "feat",
+        "text": "Standardize all TreeTable usages with paginateExpandedRows fix"
+      }
     ]
   },
   {
@@ -120,15 +205,42 @@
     "breaking": false,
     "summary": "DMS category list/view/edit fixes, cross-account access prevention",
     "changes": [
-      { "type": "fix", "text": "Show createdBy instead of uploadedBy in DMS files list" },
-      { "type": "fix", "text": "Correct BPM menu label from Process to Partner Management" },
-      { "type": "fix", "text": "Fix DMS category list/view/edit errors and add config display" },
-      { "type": "fix", "text": "Normalize upload response fileId→id for post-create navigation" },
-      { "type": "fix", "text": "Prevent cross-account DMS config access for non-superadmin" },
-      { "type": "fix", "text": "Replace remaining baseFilter refs with computeBaseFilter in loadStats" },
-      { "type": "fix", "text": "Superadmin sees all DMS configs in list view" },
-      { "type": "fix", "text": "Support factory fn in defaultFilterValues to prevent frozen defaults" },
-      { "type": "fix", "text": "Use factory fn for date-based filter defaults in 3 configs" }
+      {
+        "type": "fix",
+        "text": "Show createdBy instead of uploadedBy in DMS files list"
+      },
+      {
+        "type": "fix",
+        "text": "Correct BPM menu label from Process to Partner Management"
+      },
+      {
+        "type": "fix",
+        "text": "Fix DMS category list/view/edit errors and add config display"
+      },
+      {
+        "type": "fix",
+        "text": "Normalize upload response fileId→id for post-create navigation"
+      },
+      {
+        "type": "fix",
+        "text": "Prevent cross-account DMS config access for non-superadmin"
+      },
+      {
+        "type": "fix",
+        "text": "Replace remaining baseFilter refs with computeBaseFilter in loadStats"
+      },
+      {
+        "type": "fix",
+        "text": "Superadmin sees all DMS configs in list view"
+      },
+      {
+        "type": "fix",
+        "text": "Support factory fn in defaultFilterValues to prevent frozen defaults"
+      },
+      {
+        "type": "fix",
+        "text": "Use factory fn for date-based filter defaults in 3 configs"
+      }
     ]
   },
   {
@@ -138,7 +250,10 @@
     "breaking": false,
     "summary": "Add role and module description support to security seed",
     "changes": [
-      { "type": "feat", "text": "Add role and module description support to security seed" }
+      {
+        "type": "feat",
+        "text": "Add role and module description support to security seed"
+      }
     ]
   },
   {
@@ -148,9 +263,18 @@
     "breaking": false,
     "summary": "Add security seed with 7 role definitions, HRM module setup",
     "changes": [
-      { "type": "feat", "text": "Add security seed with 7 role definitions and TR/EN descriptions" },
-      { "type": "fix", "text": "Replace @Lob with columnDefinition TEXT for Hibernate 6.x compatibility" },
-      { "type": "fix", "text": "Update package.json repository URLs from ckirbas to icombilisim" }
+      {
+        "type": "feat",
+        "text": "Add security seed with 7 role definitions and TR/EN descriptions"
+      },
+      {
+        "type": "fix",
+        "text": "Replace @Lob with columnDefinition TEXT for Hibernate 6.x compatibility"
+      },
+      {
+        "type": "fix",
+        "text": "Update package.json repository URLs from ckirbas to icombilisim"
+      }
     ]
   },
   {
@@ -160,7 +284,10 @@
     "breaking": false,
     "summary": "Bump icom-micro-services-api to 1.2.1",
     "changes": [
-      { "type": "fix", "text": "Bump icom-micro-services-api to 1.2.1" }
+      {
+        "type": "fix",
+        "text": "Bump icom-micro-services-api to 1.2.1"
+      }
     ]
   },
   {
@@ -170,7 +297,10 @@
     "breaking": false,
     "summary": "Bump icom-micro-services-api from 1.2.0 to 1.2.1",
     "changes": [
-      { "type": "fix", "text": "Bump icom-micro-services-api from 1.2.0 to 1.2.1" }
+      {
+        "type": "fix",
+        "text": "Bump icom-micro-services-api from 1.2.0 to 1.2.1"
+      }
     ]
   },
   {
@@ -180,7 +310,10 @@
     "breaking": false,
     "summary": "Add displayKey and i18n role descriptions",
     "changes": [
-      { "type": "feat", "text": "Add displayKey and i18n role descriptions" }
+      {
+        "type": "feat",
+        "text": "Add displayKey and i18n role descriptions"
+      }
     ]
   },
   {
@@ -190,7 +323,10 @@
     "breaking": false,
     "summary": "Add i18n role descriptions for BPM, DMS and HRM modules",
     "changes": [
-      { "type": "feat", "text": "Add i18n role descriptions for BPM, DMS and HRM modules" }
+      {
+        "type": "feat",
+        "text": "Add i18n role descriptions for BPM, DMS and HRM modules"
+      }
     ]
   },
   {
@@ -200,9 +336,18 @@
     "breaking": false,
     "summary": "Pass projectCode to JWT during login, improve account resolution",
     "changes": [
-      { "type": "feat", "text": "Pass projectCode to JWT during login" },
-      { "type": "fix", "text": "Make resolveProjectCode graceful when no GroupProject link exists" },
-      { "type": "fix", "text": "Use ProjectCodeHolder fallback in group create" }
+      {
+        "type": "feat",
+        "text": "Pass projectCode to JWT during login"
+      },
+      {
+        "type": "fix",
+        "text": "Make resolveProjectCode graceful when no GroupProject link exists"
+      },
+      {
+        "type": "fix",
+        "text": "Use ProjectCodeHolder fallback in group create"
+      }
     ]
   },
   {
@@ -212,7 +357,10 @@
     "breaking": false,
     "summary": "Bump icom-micro-services-api from 1.1.1 to 1.2.0",
     "changes": [
-      { "type": "fix", "text": "Bump icom-micro-services-api from 1.1.1 to 1.2.0" }
+      {
+        "type": "fix",
+        "text": "Bump icom-micro-services-api from 1.1.1 to 1.2.0"
+      }
     ]
   },
   {
@@ -222,7 +370,10 @@
     "breaking": false,
     "summary": "Remove 4 unnecessary sub-handler @Role definitions",
     "changes": [
-      { "type": "fix", "text": "Remove 4 unnecessary sub-handler @Role definitions" }
+      {
+        "type": "fix",
+        "text": "Remove 4 unnecessary sub-handler @Role definitions"
+      }
     ]
   },
   {
@@ -232,7 +383,10 @@
     "breaking": false,
     "summary": "Assign independent RBAC roles to Contract and Proposal screens",
     "changes": [
-      { "type": "fix", "text": "Assign independent RBAC roles to Contract and Proposal screens" }
+      {
+        "type": "fix",
+        "text": "Assign independent RBAC roles to Contract and Proposal screens"
+      }
     ]
   },
   {
@@ -242,7 +396,10 @@
     "breaking": false,
     "summary": "Bump icom-micro-services-api from 1.1.1 to 1.2.1",
     "changes": [
-      { "type": "fix", "text": "Bump icom-micro-services-api from 1.1.1 to 1.2.1" }
+      {
+        "type": "fix",
+        "text": "Bump icom-micro-services-api from 1.1.1 to 1.2.1"
+      }
     ]
   },
   {
@@ -252,7 +409,10 @@
     "breaking": false,
     "summary": "Increase M2M panel pageSize from 25 to 500",
     "changes": [
-      { "type": "fix", "text": "Increase M2M panel pageSize from 25 to 500" }
+      {
+        "type": "fix",
+        "text": "Increase M2M panel pageSize from 25 to 500"
+      }
     ]
   },
   {
@@ -262,7 +422,10 @@
     "breaking": false,
     "summary": "Make resolveProjectCode graceful when no GroupProject link exists",
     "changes": [
-      { "type": "fix", "text": "Make resolveProjectCode graceful when no GroupProject link exists" }
+      {
+        "type": "fix",
+        "text": "Make resolveProjectCode graceful when no GroupProject link exists"
+      }
     ]
   },
   {
@@ -272,7 +435,10 @@
     "breaking": false,
     "summary": "Bump icom-microservices-core from 1.1.1 to 1.2.0",
     "changes": [
-      { "type": "fix", "text": "Bump icom-microservices-core from 1.1.1 to 1.2.0" }
+      {
+        "type": "fix",
+        "text": "Bump icom-microservices-core from 1.1.1 to 1.2.0"
+      }
     ]
   },
   {
@@ -282,8 +448,14 @@
     "breaking": false,
     "summary": "Remove hardcoded ICGLB projectCode injection, unify X-Project-Code header",
     "changes": [
-      { "type": "fix", "text": "Remove hardcoded ICGLB projectCode injection" },
-      { "type": "fix", "text": "Unify X-Project-Code header to single frontend project code" }
+      {
+        "type": "fix",
+        "text": "Remove hardcoded ICGLB projectCode injection"
+      },
+      {
+        "type": "fix",
+        "text": "Unify X-Project-Code header to single frontend project code"
+      }
     ]
   },
   {
@@ -293,7 +465,10 @@
     "breaking": false,
     "summary": "Add displayKey and i18n role descriptions",
     "changes": [
-      { "type": "feat", "text": "Add displayKey and i18n role descriptions" }
+      {
+        "type": "feat",
+        "text": "Add displayKey and i18n role descriptions"
+      }
     ]
   },
   {
@@ -303,12 +478,30 @@
     "breaking": false,
     "summary": "Initial HRM module — 13 entities, 16 enums, full CRUD stack",
     "changes": [
-      { "type": "feat", "text": "Add 16 enum types for HRM domain model" },
-      { "type": "feat", "text": "Add 4 lookup entities with full CRUD stack (Department, Position, ContractType, EducationLevel)" },
-      { "type": "feat", "text": "Add Employee hub entity with full CRUD stack" },
-      { "type": "feat", "text": "Add 6 SubHandler entities with full CRUD stack" },
-      { "type": "feat", "text": "Add 2 ReadOnly entities (Transaction, DataAccessLog)" },
-      { "type": "feat", "text": "Add project scaffold with POMs, config, and infra" }
+      {
+        "type": "feat",
+        "text": "Add 16 enum types for HRM domain model"
+      },
+      {
+        "type": "feat",
+        "text": "Add 4 lookup entities with full CRUD stack (Department, Position, ContractType, EducationLevel)"
+      },
+      {
+        "type": "feat",
+        "text": "Add Employee hub entity with full CRUD stack"
+      },
+      {
+        "type": "feat",
+        "text": "Add 6 SubHandler entities with full CRUD stack"
+      },
+      {
+        "type": "feat",
+        "text": "Add 2 ReadOnly entities (Transaction, DataAccessLog)"
+      },
+      {
+        "type": "feat",
+        "text": "Add project scaffold with POMs, config, and infra"
+      }
     ]
   },
   {
@@ -318,12 +511,30 @@
     "breaking": false,
     "summary": "Integrate 13 HRM entities, improve sidebar menu",
     "changes": [
-      { "type": "feat", "text": "Add 13 HRM entity handler configs for CRUD pages" },
-      { "type": "feat", "text": "Improve sidebar menu labels and contrast" },
-      { "type": "feat", "text": "Integrate 13 HRM entities into app routing, sidebar, translations, and proxy" },
-      { "type": "fix", "text": "Add category icons to sidebar menu headers" },
-      { "type": "fix", "text": "Prevent serviceOverride auto-load crash and inject projectCode for groups" },
-      { "type": "fix", "text": "Resolve white page in group subhandler tabs (Roller/Kullanıcı)" }
+      {
+        "type": "feat",
+        "text": "Add 13 HRM entity handler configs for CRUD pages"
+      },
+      {
+        "type": "feat",
+        "text": "Improve sidebar menu labels and contrast"
+      },
+      {
+        "type": "feat",
+        "text": "Integrate 13 HRM entities into app routing, sidebar, translations, and proxy"
+      },
+      {
+        "type": "fix",
+        "text": "Add category icons to sidebar menu headers"
+      },
+      {
+        "type": "fix",
+        "text": "Prevent serviceOverride auto-load crash and inject projectCode for groups"
+      },
+      {
+        "type": "fix",
+        "text": "Resolve white page in group subhandler tabs (Roller/Kullanıcı)"
+      }
     ]
   },
   {
@@ -333,7 +544,10 @@
     "breaking": false,
     "summary": "Add global cursor pointer for all interactive elements",
     "changes": [
-      { "type": "fix", "text": "Add global cursor pointer for all interactive elements" }
+      {
+        "type": "fix",
+        "text": "Add global cursor pointer for all interactive elements"
+      }
     ]
   },
   {
@@ -343,7 +557,10 @@
     "breaking": false,
     "summary": "Fix S6551 object stringification in DynamicField renderCurrencyInput",
     "changes": [
-      { "type": "fix", "text": "Fix S6551 object stringification in DynamicField renderCurrencyInput" }
+      {
+        "type": "fix",
+        "text": "Fix S6551 object stringification in DynamicField renderCurrencyInput"
+      }
     ]
   },
   {
@@ -353,7 +570,10 @@
     "breaking": false,
     "summary": "Revert eslint to v9 for react-hooks plugin compatibility",
     "changes": [
-      { "type": "fix", "text": "Revert eslint to v9 for react-hooks plugin compatibility" }
+      {
+        "type": "fix",
+        "text": "Revert eslint to v9 for react-hooks plugin compatibility"
+      }
     ]
   },
   {
@@ -363,7 +583,10 @@
     "breaking": false,
     "summary": "Add proposal revision chain, status workflow, and entity audit logging",
     "changes": [
-      { "type": "feat", "text": "Add proposal revision chain, status workflow, and entity audit logging" }
+      {
+        "type": "feat",
+        "text": "Add proposal revision chain, status workflow, and entity audit logging"
+      }
     ]
   },
   {
@@ -373,8 +596,14 @@
     "breaking": false,
     "summary": "Add generic EntityHistory and EntityNote REST services",
     "changes": [
-      { "type": "feat", "text": "Add generic EntityHistory and EntityNote REST services" },
-      { "type": "fix", "text": "Resolve project code dynamically and improve account resolution" }
+      {
+        "type": "feat",
+        "text": "Add generic EntityHistory and EntityNote REST services"
+      },
+      {
+        "type": "fix",
+        "text": "Resolve project code dynamically and improve account resolution"
+      }
     ]
   },
   {
@@ -384,7 +613,10 @@
     "breaking": false,
     "summary": "Rename Topbar.tsx to TopBar.tsx for case-sensitive Linux CI",
     "changes": [
-      { "type": "fix", "text": "Rename Topbar.tsx to TopBar.tsx for case-sensitive Linux CI" }
+      {
+        "type": "fix",
+        "text": "Rename Topbar.tsx to TopBar.tsx for case-sensitive Linux CI"
+      }
     ]
   },
   {
@@ -394,7 +626,10 @@
     "breaking": false,
     "summary": "Resolve all 84 ESLint errors for CI green build",
     "changes": [
-      { "type": "fix", "text": "Resolve all 84 ESLint errors for CI green build" }
+      {
+        "type": "fix",
+        "text": "Resolve all 84 ESLint errors for CI green build"
+      }
     ]
   },
   {
@@ -404,7 +639,10 @@
     "breaking": false,
     "summary": "Remove SNAPSHOT versions and fix CI workflows",
     "changes": [
-      { "type": "fix", "text": "Remove SNAPSHOT versions and fix CI workflows" }
+      {
+        "type": "fix",
+        "text": "Remove SNAPSHOT versions and fix CI workflows"
+      }
     ]
   },
   {
@@ -414,7 +652,10 @@
     "breaking": false,
     "summary": "Remove SNAPSHOT versions and fix CI workflows",
     "changes": [
-      { "type": "fix", "text": "Remove SNAPSHOT versions and fix CI workflows" }
+      {
+        "type": "fix",
+        "text": "Remove SNAPSHOT versions and fix CI workflows"
+      }
     ]
   }
 ]
