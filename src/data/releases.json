@@ -1,5 +1,22 @@
 [
   {
+    "version": "1.4.0",
+    "date": "2026-02-21",
+    "module": "dms",
+    "breaking": false,
+    "summary": "** enforce @UniqueField on DmsCategory name, add duplicate i18n",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** enforce @UniqueField on DmsCategory name, add duplicate i18n"
+      },
+      {
+        "type": "fix",
+        "text": "** enforce UTC Instant fields and hibernate timezone config"
+      }
+    ]
+  },
+  {
     "version": "1.6.1",
     "date": "2026-02-21",
     "module": "core",
@@ -19,14 +36,38 @@
     "breaking": false,
     "summary": "add AutoCodeConfig CRUD with entity-types endpoint",
     "changes": [
-      { "type": "feat", "text": "add AutoCodeConfig CRUD with entity-types endpoint" },
-      { "type": "feat", "text": "add Flyway DDL for s_auto_code_config" },
-      { "type": "fix", "text": "add error.duplicate_value message key for @UniqueField validation" },
-      { "type": "fix", "text": "add hibernate.jdbc.time_zone=UTC to persist Instants as UTC" },
-      { "type": "fix", "text": "correct import paths in AutoCodeConfig service and repository" },
-      { "type": "fix", "text": "enforce license and assignable checks on group role assignment" },
-      { "type": "fix", "text": "rewrite AutoCodeConfigController as standalone RestController" },
-      { "type": "fix", "text": "scope AutoCodeConfig list to tenant via crProcessId predicate" }
+      {
+        "type": "feat",
+        "text": "add AutoCodeConfig CRUD with entity-types endpoint"
+      },
+      {
+        "type": "feat",
+        "text": "add Flyway DDL for s_auto_code_config"
+      },
+      {
+        "type": "fix",
+        "text": "add error.duplicate_value message key for @UniqueField validation"
+      },
+      {
+        "type": "fix",
+        "text": "add hibernate.jdbc.time_zone=UTC to persist Instants as UTC"
+      },
+      {
+        "type": "fix",
+        "text": "correct import paths in AutoCodeConfig service and repository"
+      },
+      {
+        "type": "fix",
+        "text": "enforce license and assignable checks on group role assignment"
+      },
+      {
+        "type": "fix",
+        "text": "rewrite AutoCodeConfigController as standalone RestController"
+      },
+      {
+        "type": "fix",
+        "text": "scope AutoCodeConfig list to tenant via crProcessId predicate"
+      }
     ]
   },
   {
