@@ -4,11 +4,52 @@
     "date": "2026-02-21",
     "module": "web",
     "breaking": false,
-    "summary": "** remove unused LucideIcon import and convert ref to state for render safety",
+    "summary": "remove unused LucideIcon import and convert ref to state for render safety",
     "changes": [
       {
         "type": "fix",
-        "text": "** remove unused LucideIcon import and convert ref to state for render safety"
+        "text": "remove unused LucideIcon import and convert ref to state for render safety"
+      }
+    ]
+  },
+  {
+    "version": "1.5.0",
+    "date": "2026-02-21",
+    "module": "web",
+    "breaking": false,
+    "summary": "add AutoCodeConfig CRUD screen with entity-type prefix selector",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "add AutoCodeConfig CRUD screen with entity-type prefix selector"
+      },
+      {
+        "type": "feat",
+        "text": "add product parent-child tree list, searchable category filter and addChild row action"
+      },
+      {
+        "type": "feat",
+        "text": "add singleRecord mode and custom AutoCodeConfig table page"
+      },
+      {
+        "type": "feat",
+        "text": "route API field-level duplicate errors to inline form field validation"
+      },
+      {
+        "type": "feat",
+        "text": "add topbar live menu search with keyboard navigation"
+      },
+      {
+        "type": "fix",
+        "text": "disable browser autocomplete and password-save on all non-login inputs"
+      },
+      {
+        "type": "fix",
+        "text": "eliminate full reload on role toggle with optimistic update"
+      },
+      {
+        "type": "fix",
+        "text": "truncate long cell text and show full value on hover in all list views"
       }
     ]
   },
@@ -17,23 +58,36 @@
     "date": "2026-02-21",
     "module": "bpm",
     "breaking": false,
-    "summary": "** add self-referencing parent field to Product with tree list DTO support",
+    "summary": "add self-referencing parent field to Product with tree list DTO support",
     "changes": [
       {
         "type": "feat",
-        "text": "** add self-referencing parent field to Product with tree list DTO support"
+        "text": "add self-referencing parent field to Product with tree list DTO support"
       },
       {
         "type": "feat",
-        "text": "** add tenant-scoped @UniqueField constraint on BranchEditDto.branchName"
+        "text": "add tenant-scoped @UniqueField constraint on BranchEditDto.branchName"
       },
       {
         "type": "feat",
-        "text": "** enforce @UniqueField on BusinessPartner and Contact DTOs"
+        "text": "enforce @UniqueField on BusinessPartner and Contact DTOs"
       },
       {
         "type": "fix",
-        "text": "** add hibernate.jdbc.time_zone=UTC to persist Instants as UTC"
+        "text": "add hibernate.jdbc.time_zone=UTC to persist Instants as UTC"
+      }
+    ]
+  },
+  {
+    "version": "1.3.0",
+    "date": "2026-02-21",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "publish release notes to ICOSYS-Changelog on every release",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "publish release notes to ICOSYS-Changelog on every release"
       }
     ]
   },
@@ -42,15 +96,15 @@
     "date": "2026-02-21",
     "module": "dms",
     "breaking": false,
-    "summary": "** enforce @UniqueField on DmsCategory name, add duplicate i18n",
+    "summary": "enforce @UniqueField on DmsCategory name, add duplicate i18n",
     "changes": [
       {
         "type": "feat",
-        "text": "** enforce @UniqueField on DmsCategory name, add duplicate i18n"
+        "text": "enforce @UniqueField on DmsCategory name, add duplicate i18n"
       },
       {
         "type": "fix",
-        "text": "** enforce UTC Instant fields and hibernate timezone config"
+        "text": "enforce UTC Instant fields and hibernate timezone config"
       }
     ]
   },
