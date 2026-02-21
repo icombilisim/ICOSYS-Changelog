@@ -2,6 +2,31 @@
   {
     "version": "1.4.0",
     "date": "2026-02-21",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "** add self-referencing parent field to Product with tree list DTO support",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add self-referencing parent field to Product with tree list DTO support"
+      },
+      {
+        "type": "feat",
+        "text": "** add tenant-scoped @UniqueField constraint on BranchEditDto.branchName"
+      },
+      {
+        "type": "feat",
+        "text": "** enforce @UniqueField on BusinessPartner and Contact DTOs"
+      },
+      {
+        "type": "fix",
+        "text": "** add hibernate.jdbc.time_zone=UTC to persist Instants as UTC"
+      }
+    ]
+  },
+  {
+    "version": "1.4.0",
+    "date": "2026-02-21",
     "module": "dms",
     "breaking": false,
     "summary": "** enforce @UniqueField on DmsCategory name, add duplicate i18n",
