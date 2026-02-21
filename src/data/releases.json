@@ -2,6 +2,19 @@
   {
     "version": "1.4.1",
     "date": "2026-02-21",
+    "module": "dms",
+    "breaking": false,
+    "summary": "** bump icom-microservices-core 1.3.1 → 1.4.1 for getEntityClass() support",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core 1.3.1 → 1.4.1 for getEntityClass() support"
+      }
+    ]
+  },
+  {
+    "version": "1.4.1",
+    "date": "2026-02-21",
     "module": "bpm",
     "breaking": false,
     "summary": "** bump icom-microservices-core 1.3.2 → 1.4.1 for getEntityClass() support",
