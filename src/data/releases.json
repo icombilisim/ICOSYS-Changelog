@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.5.1",
+    "date": "2026-02-21",
+    "module": "web",
+    "breaking": false,
+    "summary": "** remove unused LucideIcon import and convert ref to state for render safety",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** remove unused LucideIcon import and convert ref to state for render safety"
+      }
+    ]
+  },
+  {
     "version": "1.4.0",
     "date": "2026-02-21",
     "module": "bpm",
