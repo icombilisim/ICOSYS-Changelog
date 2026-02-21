@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.4.2",
+    "date": "2026-02-21",
+    "module": "core",
+    "breaking": false,
+    "summary": "scope RateLimitFilter to public/auth endpoints only — authenticated endpoints exempt",
+    "changes": [
+      {
+        "type": "refactor",
+        "text": "scope RateLimitFilter to public/auth endpoints only — authenticated endpoints exempt (#14)"
+      }
+    ]
+  },
+  {
     "version": "1.5.1",
     "date": "2026-02-21",
     "module": "web",
