@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.4.2",
+    "date": "2026-02-22",
+    "module": "dms",
+    "breaking": false,
+    "summary": "** bump icom-micro-services-api to 1.4.2 and extend gitignore, closes [#14](https://github.com/icomb",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** bump icom-micro-services-api to 1.4.2 and extend gitignore, closes [#14](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/14)"
+      }
+    ]
+  },
+  {
     "version": "1.6.2",
     "date": "2026-02-22",
     "module": "core",
