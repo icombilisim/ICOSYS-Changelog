@@ -1,5 +1,46 @@
 [
   {
+    "version": "1.6.0",
+    "date": "2026-02-22",
+    "module": "web",
+    "breaking": false,
+    "summary": "** add superadmin CREATE flow for auto-code-config",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add superadmin CREATE flow for auto-code-config"
+      },
+      {
+        "type": "feat",
+        "text": "** gate DMS features on license and filter configured accounts in dms-settings ([#56](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/56), [#57](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/57))"
+      },
+      {
+        "type": "fix",
+        "text": "** allow account owner/admin to bypass module check in admin menu"
+      },
+      {
+        "type": "fix",
+        "text": "** fix breadcrumb labels, superadmin auto-code-config create flow"
+      },
+      {
+        "type": "fix",
+        "text": "** persist sidebar menu expanded state across page refreshes"
+      },
+      {
+        "type": "fix",
+        "text": "** replace table cell tooltip with CSS hover-expand"
+      },
+      {
+        "type": "fix",
+        "text": "** rework superadmin auto-code-config to use account-picker inline editor"
+      },
+      {
+        "type": "fix",
+        "text": "** use crProcessId matching in DMS account combo filter"
+      }
+    ]
+  },
+  {
     "version": "1.4.2",
     "date": "2026-02-22",
     "module": "dms",
