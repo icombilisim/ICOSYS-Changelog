@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.4.2",
+    "date": "2026-02-22",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "** add -parameters compiler flag for Spring Boot 3.2+ compatibility",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** add -parameters compiler flag for Spring Boot 3.2+ compatibility"
+      }
+    ]
+  },
+  {
     "version": "1.4.3",
     "date": "2026-02-22",
     "module": "core",
