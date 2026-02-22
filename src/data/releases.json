@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.4.3",
+    "date": "2026-02-22",
+    "module": "dms",
+    "breaking": false,
+    "summary": "** add -parameters compiler flag for Spring Boot 3.2+ compatibility",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** add -parameters compiler flag for Spring Boot 3.2+ compatibility"
+      }
+    ]
+  },
+  {
     "version": "1.6.0",
     "date": "2026-02-22",
     "module": "web",
