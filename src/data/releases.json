@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.6.2",
+    "date": "2026-02-22",
+    "module": "core",
+    "breaking": false,
+    "summary": "** bump icom-micro-services-api from 1.4.1 to 1.4.2, closes [#14](https://github.com/icombilisim/Icg",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** bump icom-micro-services-api from 1.4.1 to 1.4.2, closes [#14](https://github.com/icombilisim/Icglb-Services-1.0/issues/14)"
+      }
+    ]
+  },
+  {
     "version": "1.4.2",
     "date": "2026-02-21",
     "module": "core",
