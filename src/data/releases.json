@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.6.1",
+    "date": "2026-02-22",
+    "module": "web",
+    "breaking": false,
+    "summary": "** correct menu requiredRole and harden account selection",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** correct menu requiredRole and harden account selection"
+      }
+    ]
+  },
+  {
     "version": "1.4.2",
     "date": "2026-02-22",
     "module": "bpm",
