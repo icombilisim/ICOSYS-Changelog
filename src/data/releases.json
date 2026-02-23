@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.5.0",
+    "date": "2026-02-23",
+    "module": "dms",
+    "breaking": false,
+    "summary": "** security hardening — @NonNull fields, tenant filter cleanup, @PreAuthorize RBAC ([#17](https://gi",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** security hardening — @NonNull fields, tenant filter cleanup, @PreAuthorize RBAC ([#17](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/17), [#19](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/19), [#20](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/20)), closes [#29](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/29) [icombilisim/Icglb-Services-1.0#29](https://github.com/icombilisim/Icglb-Services-1.0/issues/29) [#10](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/10) [#10](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/10)"
+      }
+    ]
+  },
+  {
     "version": "1.8.0",
     "date": "2026-02-23",
     "module": "core",
