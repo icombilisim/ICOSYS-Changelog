@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.8.0",
+    "date": "2026-02-23",
+    "module": "core",
+    "breaking": false,
+    "summary": "** security hardening — JWT RBAC, tenant filter, @PreAuthorize on 21 controllers ([#17](https://gith",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** security hardening — JWT RBAC, tenant filter, @PreAuthorize on 21 controllers ([#17](https://github.com/icombilisim/Icglb-Services-1.0/issues/17), [#19](https://github.com/icombilisim/Icglb-Services-1.0/issues/19), [#20](https://github.com/icombilisim/Icglb-Services-1.0/issues/20)), closes [#18](https://github.com/icombilisim/Icglb-Services-1.0/issues/18) [#18](https://github.com/icombilisim/Icglb-Services-1.0/issues/18)"
+      }
+    ]
+  },
+  {
     "version": "1.7.2",
     "date": "2026-02-23",
     "module": "web",
