@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.9.0",
+    "date": "2026-02-23",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add security integration tests",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add security integration tests"
+      }
+    ]
+  },
+  {
     "version": "1.5.0",
     "date": "2026-02-23",
     "module": "bpm",
