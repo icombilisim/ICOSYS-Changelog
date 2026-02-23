@@ -1,5 +1,26 @@
 [
   {
+    "version": "1.7.0",
+    "date": "2026-02-23",
+    "module": "core",
+    "breaking": false,
+    "summary": "** populate accountName in license list and detail responses",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** populate accountName in license list and detail responses"
+      },
+      {
+        "type": "fix",
+        "text": "** exclude transitive commons-logging from artemis-jms-client"
+      },
+      {
+        "type": "fix",
+        "text": "** upgrade Spring Boot from 3.5.6 to 3.5.11"
+      }
+    ]
+  },
+  {
     "version": "1.6.1",
     "date": "2026-02-22",
     "module": "web",
