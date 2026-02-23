@@ -2,6 +2,19 @@
   {
     "version": "1.5.0",
     "date": "2026-02-23",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "** security hardening — @NonNull fields, tenant filter cleanup, @PreAuthorize RBAC ([#17](https://gi",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** security hardening — @NonNull fields, tenant filter cleanup, @PreAuthorize RBAC ([#17](https://github.com/icombilisim/ICoSys-BPM/issues/17), [#19](https://github.com/icombilisim/ICoSys-BPM/issues/19), [#20](https://github.com/icombilisim/ICoSys-BPM/issues/20)), closes [#29](https://github.com/icombilisim/ICoSys-BPM/issues/29) [icombilisim/Icglb-Services-1.0#29](https://github.com/icombilisim/Icglb-Services-1.0/issues/29) [#8](https://github.com/icombilisim/ICoSys-BPM/issues/8) [#8](https://github.com/icombilisim/ICoSys-BPM/issues/8)"
+      }
+    ]
+  },
+  {
+    "version": "1.5.0",
+    "date": "2026-02-23",
     "module": "dms",
     "breaking": false,
     "summary": "** security hardening — @NonNull fields, tenant filter cleanup, @PreAuthorize RBAC ([#17](https://gi",
