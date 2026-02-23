@@ -2,6 +2,23 @@
   {
     "version": "1.7.0",
     "date": "2026-02-23",
+    "module": "web",
+    "breaking": false,
+    "summary": "** add dedicated LicensePage with paste-only CREATE and readonly VIEW",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add dedicated LicensePage with paste-only CREATE and readonly VIEW"
+      },
+      {
+        "type": "feat",
+        "text": "** enhance LicensePage with live preview, module cards, and readonly enforcement"
+      }
+    ]
+  },
+  {
+    "version": "1.7.0",
+    "date": "2026-02-23",
     "module": "core",
     "breaking": false,
     "summary": "** populate accountName in license list and detail responses",
