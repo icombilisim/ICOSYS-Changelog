@@ -1,5 +1,22 @@
 [
   {
+    "version": "1.6.0",
+    "date": "2026-02-23",
+    "module": "dms",
+    "breaking": false,
+    "summary": "** add rate limit and request metrics config",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add rate limit and request metrics config"
+      },
+      {
+        "type": "feat",
+        "text": "** enable LicenseGuardFilter for DMS module"
+      }
+    ]
+  },
+  {
     "version": "1.10.0",
     "date": "2026-02-23",
     "module": "core",
