@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.7.1",
+    "date": "2026-02-23",
+    "module": "web",
+    "breaking": false,
+    "summary": "** remove unused HandlerConfig import and navigate variable in LicensePage",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** remove unused HandlerConfig import and navigate variable in LicensePage"
+      }
+    ]
+  },
+  {
     "version": "1.7.0",
     "date": "2026-02-23",
     "module": "web",
