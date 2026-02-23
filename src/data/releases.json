@@ -1,5 +1,22 @@
 [
   {
+    "version": "1.10.0",
+    "date": "2026-02-23",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add DB-backed LicenseGuardCacheProvider and cache eviction",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add DB-backed LicenseGuardCacheProvider and cache eviction"
+      },
+      {
+        "type": "feat",
+        "text": "** add rate limit and request metrics config"
+      }
+    ]
+  },
+  {
     "version": "1.6.0",
     "date": "2026-02-23",
     "module": "bpm",
