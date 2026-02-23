@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.7.2",
+    "date": "2026-02-23",
+    "module": "web",
+    "breaking": false,
+    "summary": "** resolve react-hooks/set-state-in-effect lint errors",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** resolve react-hooks/set-state-in-effect lint errors"
+      }
+    ]
+  },
+  {
     "version": "1.7.1",
     "date": "2026-02-23",
     "module": "web",
