@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.7.1",
+    "date": "2026-02-24",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "** bump icom-micro-services-api 1.9.1 → 1.10.0 for logging-imp retirement",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** bump icom-micro-services-api 1.9.1 → 1.10.0 for logging-imp retirement"
+      }
+    ]
+  },
+  {
     "version": "1.12.3",
     "date": "2026-02-24",
     "module": "core",
