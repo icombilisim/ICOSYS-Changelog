@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.12.2",
+    "date": "2026-02-24",
+    "module": "core",
+    "breaking": false,
+    "summary": "**core:** remove retired icom-services-api dependency ([#35](https://github.com/icombilisim/Icglb-Se",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "**core:** remove retired icom-services-api dependency ([#35](https://github.com/icombilisim/Icglb-Services-1.0/issues/35)) ([77fbf9b](https://github.com/icombilisim/Icglb-Services-1.0/commit/77fbf9bb7a5a313db0e8d231146341a3c1a22a78))"
+      }
+    ]
+  },
+  {
     "version": "1.7.0",
     "date": "2026-02-24",
     "module": "dms",
