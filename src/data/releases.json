@@ -1,5 +1,22 @@
 [
   {
+    "version": "1.8.0",
+    "date": "2026-02-24",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "** propagate actor context and add entity history hooks",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** propagate actor context and add entity history hooks"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities to 1.8.0 and icom-microservices-core to 1.10.1"
+      }
+    ]
+  },
+  {
     "version": "1.9.0",
     "date": "2026-02-24",
     "module": "web",
