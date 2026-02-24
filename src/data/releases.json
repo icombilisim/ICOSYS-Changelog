@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.9.1",
+    "date": "2026-02-24",
+    "module": "core",
+    "breaking": false,
+    "summary": "[1.9.1](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/compare/v1.9.0...v1.9.1) (2026-02",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "[1.9.1](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/compare/v1.9.0...v1.9.1) (2026-02-24)"
+      }
+    ]
+  },
+  {
     "version": "1.6.0",
     "date": "2026-02-24",
     "module": "dms",
