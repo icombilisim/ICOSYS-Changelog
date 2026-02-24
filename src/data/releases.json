@@ -1,5 +1,26 @@
 [
   {
+    "version": "1.6.0",
+    "date": "2026-02-24",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "** add entity-level RBAC @PreAuthorize to all controllers",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add entity-level RBAC @PreAuthorize to all controllers"
+      },
+      {
+        "type": "feat",
+        "text": "** add rate limit and request metrics config"
+      },
+      {
+        "type": "feat",
+        "text": "** enable LicenseGuardFilter for BPM module"
+      }
+    ]
+  },
+  {
     "version": "1.12.1",
     "date": "2026-02-24",
     "module": "core",
@@ -99,23 +120,6 @@
       {
         "type": "feat",
         "text": "** add rate limit and request metrics config"
-      }
-    ]
-  },
-  {
-    "version": "1.6.0",
-    "date": "2026-02-23",
-    "module": "bpm",
-    "breaking": false,
-    "summary": "** add rate limit and request metrics config",
-    "changes": [
-      {
-        "type": "feat",
-        "text": "** add rate limit and request metrics config"
-      },
-      {
-        "type": "feat",
-        "text": "** enable LicenseGuardFilter for BPM module"
       }
     ]
   },
