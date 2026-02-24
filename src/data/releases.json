@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.7.0",
+    "date": "2026-02-24",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "** consolidate Types + Entities-Dto into Entities module, closes [icombilisim/Icglb-Services-1.0#35]",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** consolidate Types + Entities-Dto into Entities module, closes [icombilisim/Icglb-Services-1.0#35](https://github.com/icombilisim/Icglb-Services-1.0/issues/35)"
+      }
+    ]
+  },
+  {
     "version": "1.9.1",
     "date": "2026-02-24",
     "module": "core",
