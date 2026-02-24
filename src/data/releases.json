@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.12.3",
+    "date": "2026-02-24",
+    "module": "core",
+    "breaking": false,
+    "summary": "**core:** update logging imports for icglb-logging-imp retirement ([fdd8a3e](https://github.com/icom",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "**core:** update logging imports for icglb-logging-imp retirement ([fdd8a3e](https://github.com/icombilisim/Icglb-Services-1.0/commit/fdd8a3e752ce4badef107e96ef61e842f94e5e87))"
+      }
+    ]
+  },
+  {
     "version": "1.12.2",
     "date": "2026-02-24",
     "module": "core",
