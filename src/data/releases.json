@@ -2,6 +2,31 @@
   {
     "version": "1.6.0",
     "date": "2026-02-24",
+    "module": "dms",
+    "breaking": false,
+    "summary": "** add entity-level RBAC @PreAuthorize to all controllers",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add entity-level RBAC @PreAuthorize to all controllers"
+      },
+      {
+        "type": "feat",
+        "text": "** add rate limit and request metrics config"
+      },
+      {
+        "type": "feat",
+        "text": "** enable LicenseGuardFilter for DMS module"
+      },
+      {
+        "type": "fix",
+        "text": "** fix CI build — remove premature override, closes [#19](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/19)"
+      }
+    ]
+  },
+  {
+    "version": "1.6.0",
+    "date": "2026-02-24",
     "module": "bpm",
     "breaking": false,
     "summary": "** add entity-level RBAC @PreAuthorize to all controllers",
@@ -86,23 +111,6 @@
       {
         "type": "feat",
         "text": "** integrate token blacklist into auth flow"
-      }
-    ]
-  },
-  {
-    "version": "1.6.0",
-    "date": "2026-02-23",
-    "module": "dms",
-    "breaking": false,
-    "summary": "** add rate limit and request metrics config",
-    "changes": [
-      {
-        "type": "feat",
-        "text": "** add rate limit and request metrics config"
-      },
-      {
-        "type": "feat",
-        "text": "** enable LicenseGuardFilter for DMS module"
       }
     ]
   },
