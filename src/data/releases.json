@@ -1,5 +1,22 @@
 [
   {
+    "version": "1.13.0",
+    "date": "2026-02-24",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add entity history actor propagation and audit hooks",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add entity history actor propagation and audit hooks"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core from 1.10.0 to 1.10.1"
+      }
+    ]
+  },
+  {
     "version": "1.8.0",
     "date": "2026-02-24",
     "module": "bpm",
