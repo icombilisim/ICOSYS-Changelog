@@ -1,5 +1,22 @@
 [
   {
+    "version": "1.8.0",
+    "date": "2026-02-24",
+    "module": "web",
+    "breaking": false,
+    "summary": "** add UserAuthorizationsPage and UI improvements",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add UserAuthorizationsPage and UI improvements"
+      },
+      {
+        "type": "fix",
+        "text": "** trust DB selection on fetchMe and fix license module gating"
+      }
+    ]
+  },
+  {
     "version": "1.12.0",
     "date": "2026-02-24",
     "module": "core",
