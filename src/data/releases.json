@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.12.1",
+    "date": "2026-02-24",
+    "module": "core",
+    "breaking": false,
+    "summary": "** fix CI build — add DTO v1.4.0 dep and remove premature override, closes [#19](https://github.com/",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** fix CI build — add DTO v1.4.0 dep and remove premature override, closes [#19](https://github.com/icombilisim/Icglb-Services-1.0/issues/19)"
+      }
+    ]
+  },
+  {
     "version": "1.8.0",
     "date": "2026-02-24",
     "module": "web",
