@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.10.0",
+    "date": "2026-02-25",
+    "module": "web",
+    "breaking": false,
+    "summary": "** add identity link enhancements — unlink, auto-link, uniqueCheck, pagination fix",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add identity link enhancements — unlink, auto-link, uniqueCheck, pagination fix"
+      }
+    ]
+  },
+  {
     "version": "1.8.0",
     "date": "2026-02-24",
     "module": "dms",
