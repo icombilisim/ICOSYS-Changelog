@@ -1,5 +1,38 @@
 [
   {
+    "version": "1.11.0",
+    "date": "2026-02-25",
+    "module": "web",
+    "breaking": false,
+    "summary": "** add CopyBadge to profile, fix breadcrumb, use /me endpoints",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add CopyBadge to profile, fix breadcrumb, use /me endpoints"
+      },
+      {
+        "type": "feat",
+        "text": "** add password policy UI and account selection (#Phase1, [#40](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/40)), closes [#Phase1](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/Phase1)"
+      },
+      {
+        "type": "feat",
+        "text": "** generic quick-create on lookup/select fields"
+      },
+      {
+        "type": "fix",
+        "text": "** allow submenu toggle when a child route is active"
+      },
+      {
+        "type": "fix",
+        "text": "** fix 403 on sub-handler edit for account owner/admin"
+      },
+      {
+        "type": "fix",
+        "text": "** fix DMS 403 errors for non-DMS users"
+      }
+    ]
+  },
+  {
     "version": "1.14.0",
     "date": "2026-02-25",
     "module": "core",
