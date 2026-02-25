@@ -1,5 +1,26 @@
 [
   {
+    "version": "1.9.0",
+    "date": "2026-02-25",
+    "module": "dms",
+    "breaking": false,
+    "summary": "** resolve accountNo in config list and add VIEWER role",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** resolve accountNo in config list and add VIEWER role"
+      },
+      {
+        "type": "fix",
+        "text": "** add getEntityClass() override to DmsCategoryService"
+      },
+      {
+        "type": "fix",
+        "text": "** relax DMS auth to isAuthenticated for cross-module file access"
+      }
+    ]
+  },
+  {
     "version": "1.15.0",
     "date": "2026-02-25",
     "module": "core",
