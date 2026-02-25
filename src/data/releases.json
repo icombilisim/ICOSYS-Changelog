@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.13.1",
+    "date": "2026-02-25",
+    "module": "core",
+    "breaking": false,
+    "summary": "** mirror UserInfo.status to UserProcess.status on create",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** mirror UserInfo.status to UserProcess.status on create"
+      }
+    ]
+  },
+  {
     "version": "1.10.0",
     "date": "2026-02-25",
     "module": "web",
