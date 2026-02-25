@@ -1,5 +1,26 @@
 [
   {
+    "version": "1.15.0",
+    "date": "2026-02-25",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add account-level password policy with expiry (#Phase1), closes [#Phase1](https://github.com/icom",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add account-level password policy with expiry (#Phase1), closes [#Phase1](https://github.com/icombilisim/Icglb-Services-1.0/issues/Phase1)"
+      },
+      {
+        "type": "feat",
+        "text": "** add self-service /me endpoints to UserProcessController"
+      },
+      {
+        "type": "fix",
+        "text": "** prevent duplicate Corporation/CrProcess on update"
+      }
+    ]
+  },
+  {
     "version": "1.11.0",
     "date": "2026-02-25",
     "module": "web",
