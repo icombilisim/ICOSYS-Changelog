@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.14.0",
+    "date": "2026-02-25",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add password strength policy validation",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add password strength policy validation"
+      }
+    ]
+  },
+  {
     "version": "1.13.1",
     "date": "2026-02-25",
     "module": "core",
