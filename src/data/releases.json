@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.8.1",
+    "date": "2026-02-25",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "** use nextCodeResolved for tenant custom auto-code prefix",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** use nextCodeResolved for tenant custom auto-code prefix"
+      }
+    ]
+  },
+  {
     "version": "1.9.0",
     "date": "2026-02-25",
     "module": "dms",
