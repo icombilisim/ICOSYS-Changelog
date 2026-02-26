@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.9.0",
+    "date": "2026-02-26",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "** add customer/vendor split and proposal lifecycle, closes [#11](https://github.com/icombilisim/ICo",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add customer/vendor split and proposal lifecycle, closes [#11](https://github.com/icombilisim/ICoSys-BPM/issues/11) [#35](https://github.com/icombilisim/ICoSys-BPM/issues/35) [#12](https://github.com/icombilisim/ICoSys-BPM/issues/12) [#13](https://github.com/icombilisim/ICoSys-BPM/issues/13) [#35](https://github.com/icombilisim/ICoSys-BPM/issues/35)"
+      }
+    ]
+  },
+  {
     "version": "1.9.1",
     "date": "2026-02-26",
     "module": "dms",
