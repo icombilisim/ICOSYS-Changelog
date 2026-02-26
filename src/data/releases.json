@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.15.2",
+    "date": "2026-02-26",
+    "module": "core",
+    "breaking": false,
+    "summary": "**core:** downgrade noisy operational logs from info to debug ([de18aab](https://github.com/icombili",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "**core:** downgrade noisy operational logs from info to debug ([de18aab](https://github.com/icombilisim/Icglb-Services-1.0/commit/de18aab90a90a9ce1206d9bc25d106d390a642fd))"
+      }
+    ]
+  },
+  {
     "version": "1.9.0",
     "date": "2026-02-26",
     "module": "bpm",
