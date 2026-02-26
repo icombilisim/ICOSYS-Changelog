@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.9.2",
+    "date": "2026-02-26",
+    "module": "dms",
+    "breaking": false,
+    "summary": "** enable async text extraction and add retry scheduler",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** enable async text extraction and add retry scheduler"
+      }
+    ]
+  },
+  {
     "version": "1.15.2",
     "date": "2026-02-26",
     "module": "core",
