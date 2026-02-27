@@ -1,5 +1,42 @@
 [
   {
+    "version": "1.13.0",
+    "date": "2026-02-27",
+    "module": "web",
+    "breaking": false,
+    "summary": "** add allCompanyUsers switch to group config",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add allCompanyUsers switch to group config"
+      },
+      {
+        "type": "feat",
+        "text": "** add multi-protocol SSO config UI, auto-login and UX improvements"
+      },
+      {
+        "type": "feat",
+        "text": "** add real-time email validation on all EMAIL fields"
+      },
+      {
+        "type": "feat",
+        "text": "** add SSO login flow and SsoConfig CRUD handler"
+      },
+      {
+        "type": "feat",
+        "text": "** show user timezone in footer"
+      },
+      {
+        "type": "fix",
+        "text": "** fix dark mode colors and mobile responsive layout"
+      },
+      {
+        "type": "fix",
+        "text": "** remove user name and language from footer"
+      }
+    ]
+  },
+  {
     "version": "1.11.0",
     "date": "2026-02-27",
     "module": "dms",
