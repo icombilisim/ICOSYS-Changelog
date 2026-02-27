@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.10.1",
+    "date": "2026-02-27",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "** bump icom-microservices-core 1.11.0 to 1.12.0",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core 1.11.0 to 1.12.0"
+      }
+    ]
+  },
+  {
     "version": "1.10.0",
     "date": "2026-02-27",
     "module": "dms",
