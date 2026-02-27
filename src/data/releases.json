@@ -1,5 +1,22 @@
 [
   {
+    "version": "1.11.0",
+    "date": "2026-02-27",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "** add Flyway auto-migration with multi-DB vendor support",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add Flyway auto-migration with multi-DB vendor support"
+      },
+      {
+        "type": "fix",
+        "text": "** clear child FK references before proposal delete"
+      }
+    ]
+  },
+  {
     "version": "1.16.2",
     "date": "2026-02-27",
     "module": "core",
