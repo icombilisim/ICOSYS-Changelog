@@ -1,5 +1,30 @@
 [
   {
+    "version": "1.16.0",
+    "date": "2026-02-27",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add allCompanyUsers authorization flow",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add allCompanyUsers authorization flow"
+      },
+      {
+        "type": "feat",
+        "text": "** add Flyway auto-migration with multi-DB vendor support"
+      },
+      {
+        "type": "feat",
+        "text": "** add multi-protocol SSO provider abstraction"
+      },
+      {
+        "type": "fix",
+        "text": "** add tenantId null-safety and SSO public endpoint config"
+      }
+    ]
+  },
+  {
     "version": "1.10.1",
     "date": "2026-02-27",
     "module": "bpm",
