@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.16.2",
+    "date": "2026-02-27",
+    "module": "core",
+    "breaking": false,
+    "summary": "** bump icom-micro-services-api to 1.14.1 for icom-api 4.5.0 transitive",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** bump icom-micro-services-api to 1.14.1 for icom-api 4.5.0 transitive"
+      }
+    ]
+  },
+  {
     "version": "1.16.1",
     "date": "2026-02-27",
     "module": "core",
