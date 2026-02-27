@@ -2,6 +2,19 @@
   {
     "version": "1.10.0",
     "date": "2026-02-27",
+    "module": "dms",
+    "breaking": false,
+    "summary": "** switch storage path to date-partitioned format",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** switch storage path to date-partitioned format"
+      }
+    ]
+  },
+  {
+    "version": "1.10.0",
+    "date": "2026-02-27",
     "module": "bpm",
     "breaking": false,
     "summary": "** add deletion guards and DMS file archiving",
