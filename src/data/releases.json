@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.16.1",
+    "date": "2026-02-27",
+    "module": "core",
+    "breaking": false,
+    "summary": "** bump icom-micro-services-api to 1.14.0 and icglb-entities to 1.10.0",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** bump icom-micro-services-api to 1.14.0 and icglb-entities to 1.10.0"
+      }
+    ]
+  },
+  {
     "version": "1.14.1",
     "date": "2026-02-27",
     "module": "core",
