@@ -2,6 +2,19 @@
   {
     "version": "1.11.1",
     "date": "2026-04-14",
+    "module": "dms",
+    "breaking": false,
+    "summary": "chore(deps): bump the npm_and_yarn group across 1 directory with 2 updates by @dependabot[bot] in ht",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "chore(deps): bump the npm_and_yarn group across 1 directory with 2 updates by @dependabot[bot] in https://github.com/icombilisim/ICoSys-DMS-Service-1.0/pull/17"
+      }
+    ]
+  },
+  {
+    "version": "1.11.1",
+    "date": "2026-04-14",
     "module": "bpm",
     "breaking": false,
     "summary": "ci: migrate to Nexus Docker registry (icbpm) + cascade deps by @ckirbas in https://github.com/icombi",
