@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.13.1",
+    "date": "2026-04-14",
+    "module": "web",
+    "breaking": false,
+    "summary": "ci: migrate frontend to Nexus Docker registry (icosys/nginx) by @ckirbas in https://github.com/icomb",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "ci: migrate frontend to Nexus Docker registry (icosys/nginx) by @ckirbas in https://github.com/icombilisim/ICoSys-Web-React-1.0/pull/89"
+      }
+    ]
+  },
+  {
     "version": "1.11.1",
     "date": "2026-04-14",
     "module": "dms",
