@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.11.1",
+    "date": "2026-04-14",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "ci: migrate to Nexus Docker registry (icbpm) + cascade deps by @ckirbas in https://github.com/icombi",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "ci: migrate to Nexus Docker registry (icbpm) + cascade deps by @ckirbas in https://github.com/icombilisim/ICoSys-BPM/pull/77"
+      }
+    ]
+  },
+  {
     "version": "1.16.3",
     "date": "2026-04-14",
     "module": "core",
