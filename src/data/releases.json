@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.10.0",
+    "date": "2026-04-14",
+    "module": "hrm",
+    "breaking": false,
+    "summary": "chore(deps): bump the npm_and_yarn group across 1 directory with 2 updates by @dependabot[bot] in ht",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "chore(deps): bump the npm_and_yarn group across 1 directory with 2 updates by @dependabot[bot] in https://github.com/icombilisim/ICoSys-HR-Service-1.0/pull/19"
+      }
+    ]
+  },
+  {
     "version": "1.13.1",
     "date": "2026-04-14",
     "module": "web",
