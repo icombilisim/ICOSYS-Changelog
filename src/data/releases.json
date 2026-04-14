@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.16.3",
+    "date": "2026-04-14",
+    "module": "core",
+    "breaking": false,
+    "summary": "build(deps): bump the npm_and_yarn group across 1 directory with 2 updates by @dependabot[bot] in ht",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "build(deps): bump the npm_and_yarn group across 1 directory with 2 updates by @dependabot[bot] in https://github.com/icombilisim/Icglb-Services-1.0/pull/38"
+      }
+    ]
+  },
+  {
     "version": "1.13.0",
     "date": "2026-02-27",
     "module": "web",
