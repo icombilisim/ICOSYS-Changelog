@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.17.0",
+    "date": "2026-04-18",
+    "module": "core",
+    "breaking": false,
+    "summary": "*Full Changelog**: https://github.com/icombilisim/Icglb-Services-1.0/compare/v1.16.3...v1.17.0",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "*Full Changelog**: https://github.com/icombilisim/Icglb-Services-1.0/compare/v1.16.3...v1.17.0"
+      }
+    ]
+  },
+  {
     "version": "1.10.0",
     "date": "2026-04-14",
     "module": "hrm",
