@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.10.2",
+    "date": "2026-04-18",
+    "module": "hrm",
+    "breaking": false,
+    "summary": "**hrm**: integrate Sentry for error tracking (c08aeb0)",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "**hrm**: integrate Sentry for error tracking (c08aeb0)"
+      }
+    ]
+  },
+  {
     "version": "1.11.3",
     "date": "2026-04-18",
     "module": "bpm",
