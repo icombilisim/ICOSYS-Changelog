@@ -1,5 +1,26 @@
 [
   {
+    "version": "1.12.0",
+    "date": "2026-04-18",
+    "module": "dms",
+    "breaking": false,
+    "summary": "always accept safe image types (jpg/jpeg/png/webp/gif) for platform features (profile photos, tenant",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "always accept safe image types (jpg/jpeg/png/webp/gif) for platform features (profile photos, tenant logos, inline images) regardless of per-tenant whitelist"
+      },
+      {
+        "type": "feat",
+        "text": "super admin can now manage files cross-tenant (skipTenantFilterForSuperAdmin) for tenant-settings logo assignment"
+      },
+      {
+        "type": "fix",
+        "text": "add ONEDRIVE to chk_provider_type CHECK constraint (V2026_04_18 migration)"
+      }
+    ]
+  },
+  {
     "version": "1.18.0",
     "date": "2026-04-18",
     "module": "core",
