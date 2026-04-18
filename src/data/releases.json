@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.12.1",
+    "date": "2026-04-18",
+    "module": "dms",
+    "breaking": false,
+    "summary": "**dms**: integrate Sentry for error tracking (4e375f9)",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "**dms**: integrate Sentry for error tracking (4e375f9)"
+      }
+    ]
+  },
+  {
     "version": "1.10.2",
     "date": "2026-04-18",
     "module": "hrm",
