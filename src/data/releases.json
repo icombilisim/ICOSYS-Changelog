@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.11.3",
+    "date": "2026-04-18",
+    "module": "dms",
+    "breaking": false,
+    "summary": "fix(dms): expose onedrive fields in DmsAccountConfig EditDto and converter",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "fix(dms): expose onedrive fields in DmsAccountConfig EditDto and converter"
+      }
+    ]
+  },
+  {
     "version": "1.14.1",
     "date": "2026-04-18",
     "module": "web",
