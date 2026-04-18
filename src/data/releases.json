@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.10.1",
+    "date": "2026-04-18",
+    "module": "hrm",
+    "breaking": false,
+    "summary": "*Full Changelog**: https://github.com/icombilisim/ICoSys-HR-Service-1.0/compare/v1.10.0...v1.10.1",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "*Full Changelog**: https://github.com/icombilisim/ICoSys-HR-Service-1.0/compare/v1.10.0...v1.10.1"
+      }
+    ]
+  },
+  {
     "version": "1.11.2",
     "date": "2026-04-18",
     "module": "bpm",
