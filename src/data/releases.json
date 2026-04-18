@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.14.2",
+    "date": "2026-04-18",
+    "module": "web",
+    "breaking": false,
+    "summary": "fix(dms): skip validation for hidden provider-specific required fields",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "fix(dms): skip validation for hidden provider-specific required fields"
+      }
+    ]
+  },
+  {
     "version": "1.11.3",
     "date": "2026-04-18",
     "module": "dms",
