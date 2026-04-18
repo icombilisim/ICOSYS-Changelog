@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.18.1",
+    "date": "2026-04-18",
+    "module": "core",
+    "breaking": false,
+    "summary": "**fix(auth)**: accept SSO users on /me and account-switch — SsoAuthService now idempotently links SS",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "**fix(auth)**: accept SSO users on /me and account-switch — SsoAuthService now idempotently links SSO users to default account/group on every login; UserAuthService.buildMeResponse + switchAccount branch on identityRef for SSO users; UserProcessService ensureAccountLink/ensureGroupMembership no longer trigger DuplicateKeyException (1850bd6)"
+      }
+    ]
+  },
+  {
     "version": "1.15.0",
     "date": "2026-04-18",
     "module": "web",
