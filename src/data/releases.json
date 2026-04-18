@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.14.1",
+    "date": "2026-04-18",
+    "module": "web",
+    "breaking": false,
+    "summary": "*Full Changelog**: https://github.com/icombilisim/ICoSys-Web-React-1.0/compare/v1.14.0...v1.14.1",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "*Full Changelog**: https://github.com/icombilisim/ICoSys-Web-React-1.0/compare/v1.14.0...v1.14.1"
+      }
+    ]
+  },
+  {
     "version": "1.14.0",
     "date": "2026-04-18",
     "module": "web",
