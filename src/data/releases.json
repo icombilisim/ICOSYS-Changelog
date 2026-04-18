@@ -1,5 +1,42 @@
 [
   {
+    "version": "1.15.0",
+    "date": "2026-04-18",
+    "module": "web",
+    "breaking": false,
+    "summary": "superadmin tenant-settings rewrite — list of all tenants, account selector on create, readonly accou",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "superadmin tenant-settings rewrite — list of all tenants, account selector on create, readonly account name on edit"
+      },
+      {
+        "type": "feat",
+        "text": "E2E quality gates — toast raw-key guard (MutationObserver) + form-submit smoke spec covering every CRUD /new route"
+      },
+      {
+        "type": "fix",
+        "text": "prefer backend localized userMessage over generic IC-* code description so specific validation errors no longer show as \"Doğrulama hatası\""
+      },
+      {
+        "type": "fix",
+        "text": "defensive account error i18n (error.account.name_* / default_already_exists / cannot_delete_default)"
+      },
+      {
+        "type": "fix",
+        "text": "break SSO auto-login loop — email only persisted after a completed callback, not on discovery"
+      },
+      {
+        "type": "fix",
+        "text": "SSO test connection uses dedicated POST endpoint"
+      },
+      {
+        "type": "fix",
+        "text": "account.defaultStatus no longer defaults to true on CREATE (was firing single-default validation on every new account)"
+      }
+    ]
+  },
+  {
     "version": "1.12.0",
     "date": "2026-04-18",
     "module": "dms",
