@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.17.1",
+    "date": "2026-04-18",
+    "module": "core",
+    "breaking": false,
+    "summary": "skip SSO discovery for broken OIDC/SAML config (ac43e4b) — fixes infinite /login loop when SSO misco",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "skip SSO discovery for broken OIDC/SAML config (ac43e4b) — fixes infinite /login loop when SSO misconfigured"
+      }
+    ]
+  },
+  {
     "version": "1.14.4",
     "date": "2026-04-18",
     "module": "web",
