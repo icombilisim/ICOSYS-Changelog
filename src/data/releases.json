@@ -1,5 +1,22 @@
 [
   {
+    "version": "1.18.0",
+    "date": "2026-04-18",
+    "module": "core",
+    "breaking": false,
+    "summary": "enrich tenant-settings DTO with account identity (accountNo/accountName via CrProcess chain)",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "enrich tenant-settings DTO with account identity (accountNo/accountName via CrProcess chain)"
+      },
+      {
+        "type": "fix",
+        "text": "derive AutoCodeConfig.moduleCode from provider registry so frontend single-choice form no longer fails NOT NULL"
+      }
+    ]
+  },
+  {
     "version": "1.17.1",
     "date": "2026-04-18",
     "module": "core",
