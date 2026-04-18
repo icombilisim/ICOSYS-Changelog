@@ -1,5 +1,22 @@
 [
   {
+    "version": "1.14.4",
+    "date": "2026-04-18",
+    "module": "web",
+    "breaking": false,
+    "summary": "show ACTION_BUTTON in CREATE mode with save-first hint (b06e579)",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "show ACTION_BUTTON in CREATE mode with save-first hint (b06e579)"
+      },
+      {
+        "type": "fix",
+        "text": "skip validation for fields in hidden sections (d678ea1)"
+      }
+    ]
+  },
+  {
     "version": "1.14.3",
     "date": "2026-04-18",
     "module": "web",
