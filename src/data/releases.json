@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.14.3",
+    "date": "2026-04-18",
+    "module": "web",
+    "breaking": false,
+    "summary": "nginx SPA fallback now returns `index.html` for routes whose path collides with a shipped static ass",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "nginx SPA fallback now returns `index.html` for routes whose path collides with a shipped static asset subdirectory (e.g. `/help/`, which returned 403 because `help/screenshots/` exists). (#help-403)"
+      }
+    ]
+  },
+  {
     "version": "1.14.2",
     "date": "2026-04-18",
     "module": "web",
