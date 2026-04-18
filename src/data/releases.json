@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.16.0",
+    "date": "2026-04-18",
+    "module": "web",
+    "breaking": false,
+    "summary": "**feat(web)**: hide admin menu from plain users, fix breadcrumbs, add env badge — Sidebar checkAdmin",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "**feat(web)**: hide admin menu from plain users, fix breadcrumbs, add env badge — Sidebar checkAdminAuth now defaults-deny on allowOwner/allowAdmin items without requiredRole; /my-tasks breadcrumb resolved; TopBar shows TEST/DEV badge when hostname ≠ icosys.app (f418263)"
+      }
+    ]
+  },
+  {
     "version": "1.18.1",
     "date": "2026-04-18",
     "module": "core",
