@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.12.5",
+    "date": "2026-04-19",
+    "module": "dms",
+    "breaking": false,
+    "summary": "fix(dms): bump icom-microservices-core 2.1.0 → 2.1.1 for id-sync downshift fix",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "fix(dms): bump icom-microservices-core 2.1.0 → 2.1.1 for id-sync downshift fix"
+      }
+    ]
+  },
+  {
     "version": "1.10.5",
     "date": "2026-04-19",
     "module": "hrm",
