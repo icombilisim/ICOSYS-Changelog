@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.11.5",
+    "date": "2026-04-19",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "*Full Changelog**: https://github.com/icombilisim/ICoSys-BPM/compare/v1.11.4...v1.11.5",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "*Full Changelog**: https://github.com/icombilisim/ICoSys-BPM/compare/v1.11.4...v1.11.5"
+      }
+    ]
+  },
+  {
     "version": "1.18.4",
     "date": "2026-04-19",
     "module": "core",
