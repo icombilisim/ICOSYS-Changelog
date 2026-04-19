@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.10.3",
+    "date": "2026-04-19",
+    "module": "hrm",
+    "breaking": false,
+    "summary": "Bump icglb-entities 1.14.2 + icom-microservices-core 2.1.0 for LoggedUser fail-loud cascade (#99)",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "Bump icglb-entities 1.14.2 + icom-microservices-core 2.1.0 for LoggedUser fail-loud cascade (#99)"
+      }
+    ]
+  },
+  {
     "version": "1.12.2",
     "date": "2026-04-19",
     "module": "dms",
