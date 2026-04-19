@@ -1,5 +1,30 @@
 [
   {
+    "version": "1.17.0",
+    "date": "2026-04-19",
+    "module": "web",
+    "breaking": false,
+    "summary": "Matomo analytics with cross-domain funnel tracking (#95)",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "Matomo analytics with cross-domain funnel tracking (#95)"
+      },
+      {
+        "type": "feat",
+        "text": "Public status page consumes backend uptime history (#101)"
+      },
+      {
+        "type": "fix",
+        "text": "Re-add Turnstile on register/forgot/reset flows (#98)"
+      },
+      {
+        "type": "fix",
+        "text": "Async GitHub release cache + Paraşüt re-auth flow (#96)"
+      }
+    ]
+  },
+  {
     "version": "1.10.3",
     "date": "2026-04-19",
     "module": "hrm",
