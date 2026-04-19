@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.17.1",
+    "date": "2026-04-19",
+    "module": "web",
+    "breaking": false,
+    "summary": "TopBar: app.icosys.app + status.icosys.app now recognised as prod (TEST badge was showing)",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "TopBar: app.icosys.app + status.icosys.app now recognised as prod (TEST badge was showing)"
+      }
+    ]
+  },
+  {
     "version": "1.17.0",
     "date": "2026-04-19",
     "module": "web",
