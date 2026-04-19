@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.18.4",
+    "date": "2026-04-19",
+    "module": "core",
+    "breaking": false,
+    "summary": "*Full Changelog**: https://github.com/icombilisim/Icglb-Services-1.0/compare/v1.18.3...v1.18.4",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "*Full Changelog**: https://github.com/icombilisim/Icglb-Services-1.0/compare/v1.18.3...v1.18.4"
+      }
+    ]
+  },
+  {
     "version": "1.17.1",
     "date": "2026-04-19",
     "module": "web",
