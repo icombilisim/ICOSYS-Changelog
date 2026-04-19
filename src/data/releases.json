@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.12.3",
+    "date": "2026-04-19",
+    "module": "dms",
+    "breaking": false,
+    "summary": "*Full Changelog**: https://github.com/icombilisim/ICoSys-DMS-Service-1.0/compare/v1.12.2...v1.12.3",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "*Full Changelog**: https://github.com/icombilisim/ICoSys-DMS-Service-1.0/compare/v1.12.2...v1.12.3"
+      }
+    ]
+  },
+  {
     "version": "1.11.5",
     "date": "2026-04-19",
     "module": "bpm",
