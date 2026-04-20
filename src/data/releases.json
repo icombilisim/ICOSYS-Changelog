@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.11.7",
+    "date": "2026-04-20",
+    "module": "bpm",
+    "breaking": false,
+    "summary": "fix(bpm): externalize CORS + remove hardcoded secret defaults (#107)",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "fix(bpm): externalize CORS + remove hardcoded secret defaults (#107)"
+      }
+    ]
+  },
+  {
     "version": "1.18.6",
     "date": "2026-04-20",
     "module": "core",
