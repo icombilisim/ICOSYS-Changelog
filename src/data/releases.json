@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.12.6",
+    "date": "2026-04-20",
+    "module": "dms",
+    "breaking": false,
+    "summary": "fix(dms): externalize CORS + S3 + rename DMS_URL_SECRET (#107)",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "fix(dms): externalize CORS + S3 + rename DMS_URL_SECRET (#107)"
+      }
+    ]
+  },
+  {
     "version": "1.11.7",
     "date": "2026-04-20",
     "module": "bpm",
