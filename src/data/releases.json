@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.10.6",
+    "date": "2026-04-20",
+    "module": "hrm",
+    "breaking": false,
+    "summary": "fix(hrm): externalize CORS + Gotenberg URL + remove secret defaults (#107)",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "fix(hrm): externalize CORS + Gotenberg URL + remove secret defaults (#107)"
+      }
+    ]
+  },
+  {
     "version": "1.12.6",
     "date": "2026-04-20",
     "module": "dms",
