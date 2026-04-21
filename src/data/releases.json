@@ -1,5 +1,30 @@
 [
   {
+    "version": "1.19.0",
+    "date": "2026-04-21",
+    "module": "core",
+    "breaking": false,
+    "summary": "expose main HEAD commit message + author in releases DTO (6c98e59) (#102)",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "expose main HEAD commit message + author in releases DTO (6c98e59) (#102)"
+      },
+      {
+        "type": "fix",
+        "text": "correct frontend URL + add icwfl to deploy-history targets (7d13827) (#108)"
+      },
+      {
+        "type": "fix",
+        "text": "preserve projectCode across SSO callback (39250f0) (#109)"
+      },
+      {
+        "type": "fix",
+        "text": "align HRM seed entity filter with HrmSeedRequestDto (808ece6) (#106)"
+      }
+    ]
+  },
+  {
     "version": "1.10.6",
     "date": "2026-04-20",
     "module": "hrm",
