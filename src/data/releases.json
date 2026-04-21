@@ -1,5 +1,50 @@
 [
   {
+    "version": "1.18.0",
+    "date": "2026-04-21",
+    "module": "web",
+    "breaking": false,
+    "summary": "Reconnect action for OAuth2 configs in TOKEN_EXPIRED/ERROR (0b61cc9) (#101)",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "Reconnect action for OAuth2 configs in TOKEN_EXPIRED/ERROR (0b61cc9) (#101)"
+      },
+      {
+        "type": "feat",
+        "text": "mirror userCode format rule on all input paths (9f03365) (#97)"
+      },
+      {
+        "type": "feat",
+        "text": "enrich version banner with commit message + hybrid time (5693204) (#102)"
+      },
+      {
+        "type": "feat",
+        "text": "Ops module frontend — test console, ticket tracker, sentry inbox (4cbd045) (#110)"
+      },
+      {
+        "type": "fix",
+        "text": "expand toasts so stacked notifications stay visible (c8b4a19) (#103)"
+      },
+      {
+        "type": "fix",
+        "text": "dedupe toast notifications via content-based id (8339594) (#104)"
+      },
+      {
+        "type": "fix",
+        "text": "invalidate lookup cache after CRUD save/delete (80203f5) (#105)"
+      },
+      {
+        "type": "fix",
+        "text": "align HRM wizard step keys with backend DTO (3735efe) (#106)"
+      },
+      {
+        "type": "fix",
+        "text": "type toast wrapper fn param to satisfy no-explicit-any (9ac9655) (#104)"
+      }
+    ]
+  },
+  {
     "version": "1.10.7",
     "date": "2026-04-21",
     "module": "hrm",
