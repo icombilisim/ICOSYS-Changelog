@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.10.7",
+    "date": "2026-04-21",
+    "module": "hrm",
+    "breaking": false,
+    "summary": "add /api/internal/** to api-key service-auth list (bc87e17) (#82)",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "add /api/internal/** to api-key service-auth list (bc87e17) (#82)"
+      }
+    ]
+  },
+  {
     "version": "1.11.8",
     "date": "2026-04-21",
     "module": "bpm",
