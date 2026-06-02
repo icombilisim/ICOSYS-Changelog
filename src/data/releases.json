@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.3.4",
+    "date": "2026-06-02",
+    "module": "core",
+    "breaking": false,
+    "summary": "** locale-stable role seeds + remove unused config import",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** locale-stable role seeds + remove unused config import"
+      }
+    ]
+  },
+  {
     "version": "1.20.0",
     "date": "2026-05-01",
     "module": "core",
