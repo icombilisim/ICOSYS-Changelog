@@ -4,7 +4,7 @@
     "date": "2026-05-01",
     "module": "core",
     "breaking": false,
-    "summary": "ICLIC license consumption rollout (#114) — heartbeat nodeId, jti dedup, single-fire schedulers",
+    "summary": "ICLIC license consumption rollout (#114) â€” heartbeat nodeId, jti dedup, single-fire schedulers",
     "changes": [
       {
         "type": "feat",
