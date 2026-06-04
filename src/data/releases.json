@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.3.10",
+    "date": "2026-06-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "** allow diagnostic ticket text safely",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** allow diagnostic ticket text safely"
+      }
+    ]
+  },
+  {
     "version": "2.3.9",
     "date": "2026-06-03",
     "module": "core",
