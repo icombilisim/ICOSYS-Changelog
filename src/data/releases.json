@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.4.0",
+    "date": "2026-06-13",
+    "module": "core",
+    "breaking": false,
+    "summary": "** tenant/global DOCX template management, closes [#63](https://github.com/icombilisim/ICOM-Micro-Se",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** tenant/global DOCX template management, closes [#63](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/63) [#63](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/63)"
+      }
+    ]
+  },
+  {
     "version": "2.3.12",
     "date": "2026-06-10",
     "module": "core",
