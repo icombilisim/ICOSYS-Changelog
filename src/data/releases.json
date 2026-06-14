@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.4.1",
+    "date": "2026-06-14",
+    "module": "core",
+    "breaking": false,
+    "summary": "** auto-register shared library JPA entities to prevent startup crash",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** auto-register shared library JPA entities to prevent startup crash"
+      }
+    ]
+  },
+  {
     "version": "2.4.0",
     "date": "2026-06-13",
     "module": "core",
