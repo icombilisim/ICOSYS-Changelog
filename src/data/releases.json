@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.5.0",
+    "date": "2026-06-15",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add effective-template download endpoint, closes [#63](https://github.com/icombilisim/ICOM-Micro-",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add effective-template download endpoint, closes [#63](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/63) [#63](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/63)"
+      }
+    ]
+  },
+  {
     "version": "2.4.1",
     "date": "2026-06-14",
     "module": "core",
