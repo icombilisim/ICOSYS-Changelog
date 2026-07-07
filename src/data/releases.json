@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.6.0",
+    "date": "2026-07-07",
+    "module": "core",
+    "breaking": false,
+    "summary": "** tenant/global DOCX template overrides + effective-template download, closes [#248](https://github",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** tenant/global DOCX template overrides + effective-template download, closes [#248](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/248) [#76](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/76)"
+      }
+    ]
+  },
+  {
     "version": "2.5.2",
     "date": "2026-07-06",
     "module": "core",
