@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.6.1",
+    "date": "2026-07-10",
+    "module": "core",
+    "breaking": false,
+    "summary": "** enforce DTO input validation and drop false-positive patterns, closes [#51](https://github.com/ic",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** enforce DTO input validation and drop false-positive patterns, closes [#51](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/51) [icombilisim/Icglb-Services-1.0#284](https://github.com/icombilisim/Icglb-Services-1.0/issues/284)"
+      }
+    ]
+  },
+  {
     "version": "2.6.0",
     "date": "2026-07-07",
     "module": "core",
