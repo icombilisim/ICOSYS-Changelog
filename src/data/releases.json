@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.7.0",
+    "date": "2026-07-16",
+    "module": "core",
+    "breaking": false,
+    "summary": "** run scheduled jobs on demand",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** run scheduled jobs on demand"
+      }
+    ]
+  },
+  {
     "version": "2.6.1",
     "date": "2026-07-10",
     "module": "core",
