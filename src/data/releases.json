@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.7.1",
+    "date": "2026-07-17",
+    "module": "core",
+    "breaking": false,
+    "summary": "** bump icglb-entities.version 1.25.0 -> 1.26.0 (cascade from icombilisim/Icglb-Entities-1.0 v1.26.0",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.25.0 -> 1.26.0 (cascade from icombilisim/Icglb-Entities-1.0 v1.26.0)"
+      }
+    ]
+  },
+  {
     "version": "2.7.0",
     "date": "2026-07-16",
     "module": "core",
