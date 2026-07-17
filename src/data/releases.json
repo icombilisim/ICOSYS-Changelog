@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.7.2",
+    "date": "2026-07-17",
+    "module": "core",
+    "breaking": false,
+    "summary": "** contain commit-time failures in async security audit",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** contain commit-time failures in async security audit"
+      }
+    ]
+  },
+  {
     "version": "2.7.1",
     "date": "2026-07-17",
     "module": "core",
