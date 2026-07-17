@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.7.3",
+    "date": "2026-07-17",
+    "module": "core",
+    "breaking": false,
+    "summary": "** coerce security-audit details to valid JSON at the write choke point, closes [#326](https://githu",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** coerce security-audit details to valid JSON at the write choke point, closes [#326](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/326) [#328](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/328)"
+      }
+    ]
+  },
+  {
     "version": "2.7.2",
     "date": "2026-07-17",
     "module": "core",
