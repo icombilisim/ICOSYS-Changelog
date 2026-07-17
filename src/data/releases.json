@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.7.6",
+    "date": "2026-07-17",
+    "module": "core",
+    "breaking": false,
+    "summary": "** enforce distributed JWT token revocation",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** enforce distributed JWT token revocation"
+      }
+    ]
+  },
+  {
     "version": "2.7.5",
     "date": "2026-07-17",
     "module": "core",
