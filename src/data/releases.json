@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.7.11",
+    "date": "2026-07-18",
+    "module": "core",
+    "breaking": false,
+    "summary": "** reject weak JWT signing secrets",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** reject weak JWT signing secrets"
+      }
+    ]
+  },
+  {
     "version": "2.7.10",
     "date": "2026-07-18",
     "module": "core",
