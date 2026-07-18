@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.7.7",
+    "date": "2026-07-18",
+    "module": "core",
+    "breaking": false,
+    "summary": "** bump icom-api.version 4.7.0 -> 4.7.1 (cascade from icombilisim/ICOM-Api-4.0 v4.7.1)",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** bump icom-api.version 4.7.0 -> 4.7.1 (cascade from icombilisim/ICOM-Api-4.0 v4.7.1)"
+      }
+    ]
+  },
+  {
     "version": "2.7.6",
     "date": "2026-07-17",
     "module": "core",
