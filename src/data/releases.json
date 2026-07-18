@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.7.10",
+    "date": "2026-07-18",
+    "module": "core",
+    "breaking": false,
+    "summary": "** scope document templates by module access",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** scope document templates by module access"
+      }
+    ]
+  },
+  {
     "version": "2.7.9",
     "date": "2026-07-18",
     "module": "core",
