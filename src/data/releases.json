@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.9.0",
+    "date": "2026-07-23",
+    "module": "core",
+    "breaking": false,
+    "summary": "** manual audit entry API for listener-invisible changes, closes [ICoSys-CBM-Service-1.0#76](https:/",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** manual audit entry API for listener-invisible changes, closes [ICoSys-CBM-Service-1.0#76](https://github.com/icombilisim/ICoSys-CBM-Service-1.0/issues/76)"
+      }
+    ]
+  },
+  {
     "version": "2.8.1",
     "date": "2026-07-22",
     "module": "core",
