@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.9.1",
+    "date": "2026-07-27",
+    "module": "core",
+    "breaking": false,
+    "summary": "** validate strings nested in collection, map and array fields",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** validate strings nested in collection, map and array fields"
+      }
+    ]
+  },
+  {
     "version": "2.9.0",
     "date": "2026-07-23",
     "module": "core",
