@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.9.2",
+    "date": "2026-07-28",
+    "module": "core",
+    "breaking": false,
+    "summary": "** ignore decimal scale-only audit changes",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** ignore decimal scale-only audit changes"
+      }
+    ]
+  },
+  {
     "version": "2.9.1",
     "date": "2026-07-27",
     "module": "core",
