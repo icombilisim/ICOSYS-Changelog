@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.9.4",
+    "date": "2026-07-29",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add @Transactional to @Modifying audit purge method, closes [#1197](https://github.com/icombilisi",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** add @Transactional to @Modifying audit purge method, closes [#1197](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/1197)"
+      }
+    ]
+  },
+  {
     "version": "2.9.3",
     "date": "2026-07-28",
     "module": "core",
