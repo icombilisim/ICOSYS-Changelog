@@ -1,5 +1,22 @@
 [
   {
+    "version": "2.10.0",
+    "date": "2026-07-29",
+    "module": "core",
+    "breaking": false,
+    "summary": "** HMAC-signed s2s request infrastructure",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** HMAC-signed s2s request infrastructure"
+      },
+      {
+        "type": "feat",
+        "text": "** per-caller service API keys and tenant-claim veto hook"
+      }
+    ]
+  },
+  {
     "version": "2.9.4",
     "date": "2026-07-29",
     "module": "core",
