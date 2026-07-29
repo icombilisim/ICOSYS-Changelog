@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.10.1",
+    "date": "2026-07-29",
+    "module": "core",
+    "breaking": false,
+    "summary": "** make S2sHmacVerificationFilter optional in the filter chain",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** make S2sHmacVerificationFilter optional in the filter chain"
+      }
+    ]
+  },
+  {
     "version": "2.10.0",
     "date": "2026-07-29",
     "module": "core",
