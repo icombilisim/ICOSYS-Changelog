@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.10.2",
+    "date": "2026-07-29",
+    "module": "core",
+    "breaking": false,
+    "summary": "** resolve ServiceApiKeyProperties lazily in ApiKeySecurityFilter, closes [117/#118](https://github.",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** resolve ServiceApiKeyProperties lazily in ApiKeySecurityFilter, closes [117/#118](https://github.com/117/ICOM-Micro-Services-Api-1.0/issues/118)"
+      }
+    ]
+  },
+  {
     "version": "2.10.1",
     "date": "2026-07-29",
     "module": "core",
