@@ -1,5 +1,26 @@
 [
   {
+    "version": "2.11.0",
+    "date": "2026-07-30",
+    "module": "core",
+    "breaking": false,
+    "summary": "** consolidate ScheduledAuditDrainSupport into the shared lib, closes [icombilisim/ICoSys-INFRA#191]",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** consolidate ScheduledAuditDrainSupport into the shared lib, closes [icombilisim/ICoSys-INFRA#191](https://github.com/icombilisim/ICoSys-INFRA/issues/191)"
+      },
+      {
+        "type": "feat",
+        "text": "** add nonce-based replay protection to s2s HMAC"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.29.0 -> 1.29.1 (cascade from icombilisim/Icglb-Entities-1.0 v1.29.1)"
+      }
+    ]
+  },
+  {
     "version": "2.10.3",
     "date": "2026-07-30",
     "module": "core",
