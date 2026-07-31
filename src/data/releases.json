@@ -1,5 +1,22 @@
 [
   {
+    "version": "2.11.2",
+    "date": "2026-07-31",
+    "module": "core",
+    "breaking": false,
+    "summary": "** back s2s HMAC nonce store with Redis",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** back s2s HMAC nonce store with Redis"
+      },
+      {
+        "type": "fix",
+        "text": "** pass the nonce store through the security config fallback"
+      }
+    ]
+  },
+  {
     "version": "2.11.1",
     "date": "2026-07-30",
     "module": "core",
