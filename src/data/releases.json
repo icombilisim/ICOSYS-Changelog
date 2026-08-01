@@ -1,5 +1,18 @@
 [
   {
+    "version": "2.11.7",
+    "date": "2026-08-01",
+    "module": "core",
+    "breaking": false,
+    "summary": "** compare lazy entity references by identifier, closes [#246](https://github.com/icombilisim/ICOM-M",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** compare lazy entity references by identifier, closes [#246](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/246)"
+      }
+    ]
+  },
+  {
     "version": "2.11.6",
     "date": "2026-08-01",
     "module": "core",
