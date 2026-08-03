@@ -1,5 +1,18 @@
 [
   {
+    "version": "5.0.2",
+    "date": "2026-08-03",
+    "module": "core",
+    "breaking": false,
+    "summary": "** publish the aggregator pom with the modules, closes [#162](https://github.com/icombilisim/ICOM-Mi",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** publish the aggregator pom with the modules, closes [#162](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/162) [#163](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/163)"
+      }
+    ]
+  },
+  {
     "version": "5.0.1",
     "date": "2026-08-03",
     "module": "core",
