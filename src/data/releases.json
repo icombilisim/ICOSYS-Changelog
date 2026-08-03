@@ -1,5 +1,18 @@
 [
   {
+    "version": "5.0.3",
+    "date": "2026-08-03",
+    "module": "core",
+    "breaking": false,
+    "summary": "drop the 49 classes that had a single consumer ([#159](https://github.com/icombilisim/ICOM-Micro-Ser",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "drop the 49 classes that had a single consumer ([#159](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/159)) ([#165](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/165)) ([b9a6045](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/commit/b9a6045bc11364b285628a875ce63834d2c2b2b4))"
+      }
+    ]
+  },
+  {
     "version": "5.0.2",
     "date": "2026-08-03",
     "module": "core",
