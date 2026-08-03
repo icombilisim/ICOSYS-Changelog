@@ -1,5 +1,18 @@
 [
   {
+    "version": "5.0.1",
+    "date": "2026-08-03",
+    "module": "core",
+    "breaking": false,
+    "summary": "** verify on Nexus that a release actually published every artifact, closes [#162](https://github.co",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** verify on Nexus that a release actually published every artifact, closes [#162](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/162)"
+      }
+    ]
+  },
+  {
     "version": "2.12.0",
     "date": "2026-08-03",
     "module": "core",
