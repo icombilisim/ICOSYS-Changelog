@@ -1,5 +1,702 @@
 [
   {
+    "version": "2.12.0",
+    "date": "2026-08-03",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add AccountAction enum + role feature gating ([#101](https://github.com/icombilisim/ICOM-Micro-Se",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add AccountAction enum + role feature gating ([#101](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/101) [#112](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/112)), closes [#8](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/8)"
+      },
+      {
+        "type": "feat",
+        "text": "** add login lockout DTOs"
+      },
+      {
+        "type": "feat",
+        "text": "** add UserRegistration admin list DTOs"
+      },
+      {
+        "type": "feat",
+        "text": "** absorb icglb-entities-dto classes into icglb-entities"
+      },
+      {
+        "type": "feat",
+        "text": "** add @UniqueField annotation and UniqueScope enum"
+      },
+      {
+        "type": "feat",
+        "text": "** add AccountInvitation, audit, email-change and password-reset entities"
+      },
+      {
+        "type": "feat",
+        "text": "** add AccountMemberType enum for internal/external user distinction"
+      },
+      {
+        "type": "feat",
+        "text": "** add AccountPasswordPolicy entity and DTOs (#Phase1), closes [#Phase1](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/Phase1) [#39](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/39)"
+      },
+      {
+        "type": "feat",
+        "text": "** add actorUserProcessId to EntityHistory and EntityNote"
+      },
+      {
+        "type": "feat",
+        "text": "** add AI usage log entity, enums, and DTOs"
+      },
+      {
+        "type": "feat",
+        "text": "** add AiStatusDto for provider-agnostic AI status check"
+      },
+      {
+        "type": "feat",
+        "text": "** add AutoCodeConfig entity for per-tenant code prefix override"
+      },
+      {
+        "type": "feat",
+        "text": "** add blocked field to UserProcess entity and DTOs"
+      },
+      {
+        "type": "feat",
+        "text": "** add blocked filter field to UserInfoFilterDto, closes [icombilisim/Icglb-Services-1.0#503](https://github.com/icombilisim/Icglb-Services-1.0/issues/503)"
+      },
+      {
+        "type": "feat",
+        "text": "** add BLOCKED logout type for admin user blocking"
+      },
+      {
+        "type": "feat",
+        "text": "** add description column to RoleModule entity"
+      },
+      {
+        "type": "feat",
+        "text": "** add email admin DTOs with global scope support"
+      },
+      {
+        "type": "feat",
+        "text": "** add email infrastructure entities and DTOs"
+      },
+      {
+        "type": "feat",
+        "text": "** add entity audit annotations — @Auditable, @AuditField, @Retainable"
+      },
+      {
+        "type": "feat",
+        "text": "** add EntityHistory and EntityNote entities"
+      },
+      {
+        "type": "feat",
+        "text": "** add external service integration entity, enums, and DTOs, closes [#89](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/89)"
+      },
+      {
+        "type": "feat",
+        "text": "** add IcmTenantSettings entity"
+      },
+      {
+        "type": "feat",
+        "text": "** add industry-standard userCode validation constraints"
+      },
+      {
+        "type": "feat",
+        "text": "** add integration DTOs and @Auditable annotations"
+      },
+      {
+        "type": "feat",
+        "text": "** add MaintenanceStatusDto and DashboardStatsDto for admin dashboard"
+      },
+      {
+        "type": "feat",
+        "text": "** add MAX_SESSIONS_EXCEEDED login error code"
+      },
+      {
+        "type": "feat",
+        "text": "** add memberType and allCompanyUsers fields for group authorization"
+      },
+      {
+        "type": "feat",
+        "text": "** add Microsoft 365 integration DTOs (Calendar + Teams)"
+      },
+      {
+        "type": "feat",
+        "text": "** add multi-protocol SSO identity provider abstraction"
+      },
+      {
+        "type": "feat",
+        "text": "** add nodeId to offline credential for multi-node LB, closes [icombilisim/Icglb-Services-1.0#114](https://github.com/icombilisim/Icglb-Services-1.0/issues/114)"
+      },
+      {
+        "type": "feat",
+        "text": "** add PasswordPolicyRulesDto to UserAuthResponse"
+      },
+      {
+        "type": "feat",
+        "text": "** add RBAC claims to UserHolder, tenant isolation, and SecurityAudit entity ([#17](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/17), [#18](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/18), [#21](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/21))"
+      },
+      {
+        "type": "feat",
+        "text": "** add SecurityEventType and AuditSeverity enums for security audit"
+      },
+      {
+        "type": "feat",
+        "text": "** add SecurityEventType and AuditSeverity enums for security audit"
+      },
+      {
+        "type": "feat",
+        "text": "** add SESSION_LIMIT logout type for concurrent session eviction"
+      },
+      {
+        "type": "feat",
+        "text": "** add shared entities for NACE, translation, and mail ([#47](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/47), [#78](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/78))"
+      },
+      {
+        "type": "feat",
+        "text": "** add SsoConnectionTestResultDto + disable semantic-release PR comments, closes [#N](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/N)"
+      },
+      {
+        "type": "feat",
+        "text": "** add TokenBlacklist entity for JWT revocation"
+      },
+      {
+        "type": "feat",
+        "text": "** add UniqueScope.PARENT for parent-scoped uniqueness checks"
+      },
+      {
+        "type": "feat",
+        "text": "** add UserFavoriteMenu entity and DTOs"
+      },
+      {
+        "type": "feat",
+        "text": "** add userId to UserHolder and LoggedUser"
+      },
+      {
+        "type": "feat",
+        "text": "** add WorkflowCallbackDto for cross-service workflow callbacks, closes [icombilisim/ICoSys-Workflow-Service-1.0#3](https://github.com/icombilisim/ICoSys-Workflow-Service-1.0/issues/3) [icombilisim/ICoSys-Workflow-Service-1.0#3](https://github.com/icombilisim/ICoSys-Workflow-Service-1.0/issues/3)"
+      },
+      {
+        "type": "feat",
+        "text": "** bump icom-api 4.0.0 -> 4.6.0 and consolidate release workflow"
+      },
+      {
+        "type": "feat",
+        "text": "** enable @Auditable on 17 core entities for audit trail tracking"
+      },
+      {
+        "type": "feat",
+        "text": "** enrich IcmTenantSettings DTO with account identity"
+      },
+      {
+        "type": "feat",
+        "text": "** expose role feature code in role list DTO"
+      },
+      {
+        "type": "feat",
+        "text": "** iclic phase 4 entities + session redesign ([#101](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/101) [#112](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/112))"
+      },
+      {
+        "type": "feat",
+        "text": "** make registration cr_process_id nullable"
+      },
+      {
+        "type": "feat",
+        "text": "** password-age fields on user DTOs, drop dead hint fields, closes [#318](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/318) [icombilisim/Icglb-Services-1.0#318](https://github.com/icombilisim/Icglb-Services-1.0/issues/318) [#318](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/318) [icombilisim/Icglb-Services-1.0#320](https://github.com/icombilisim/Icglb-Services-1.0/issues/320) [icombilisim/Icglb-Services-1.0#318](https://github.com/icombilisim/Icglb-Services-1.0/issues/318)"
+      },
+      {
+        "type": "feat",
+        "text": "** expose account status on account-user membership DTO"
+      },
+      {
+        "type": "feat",
+        "text": "** add AdminArea entity for global administrative divisions"
+      },
+      {
+        "type": "feat",
+        "text": "** add GroupAccountProjectDto.platform for platform-role group"
+      },
+      {
+        "type": "feat",
+        "text": "** add Role.systemOnly to mark grantable platform roles"
+      },
+      {
+        "type": "feat",
+        "text": "** add UserPlatformRole junction for direct platform-role grants"
+      },
+      {
+        "type": "feat",
+        "text": "** add userProcessRef durable user UUID to UserProcess"
+      },
+      {
+        "type": "feat",
+        "text": "** expose active-account owner/admin flags on UserInfoEditDto, closes [icombilisim/ICoSys-Web-React-1.0#449](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/449)"
+      },
+      {
+        "type": "feat",
+        "text": "** reintroduce platform-role schema"
+      },
+      {
+        "type": "feat",
+        "text": "//github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/196))"
+      },
+      {
+        "type": "feat",
+        "text": "** add pii envelope crypto core and dek holder"
+      },
+      {
+        "type": "feat",
+        "text": "** swap converter to AES-256-GCM envelope DEK"
+      },
+      {
+        "type": "feat",
+        "text": "** add blocked + forcePasswordChange to user DTOs ([#267](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/267), [#268](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/268))"
+      },
+      {
+        "type": "feat",
+        "text": "** expose account member type in user list DTO"
+      },
+      {
+        "type": "fix",
+        "text": "** cover ICGLB entity fields"
+      },
+      {
+        "type": "fix",
+        "text": "** allow at-sign in user code regex"
+      },
+      {
+        "type": "fix",
+        "text": "** add Nexus credentials to job env for build step dependency resolution"
+      },
+      {
+        "type": "fix",
+        "text": "** add Nexus credentials to job env for build step dependency resolution"
+      },
+      {
+        "type": "fix",
+        "text": "** disable semantic-release github plugin issue comments, closes [#N](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/N)"
+      },
+      {
+        "type": "fix",
+        "text": "** disable semantic-release github plugin issue comments, closes [#N](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/N)"
+      },
+      {
+        "type": "fix",
+        "text": "** read GAV from pom.xml dynamically"
+      },
+      {
+        "type": "fix",
+        "text": "** read GAV from pom.xml dynamically"
+      },
+      {
+        "type": "fix",
+        "text": "** remove Nexus publish from build workflow"
+      },
+      {
+        "type": "fix",
+        "text": "** remove Nexus publish from build workflow"
+      },
+      {
+        "type": "fix",
+        "text": "** retry cascade fan-out network calls, prune dead branches"
+      },
+      {
+        "type": "fix",
+        "text": "** retry cascade fan-out network calls, prune dead branches"
+      },
+      {
+        "type": "fix",
+        "text": "** retry cascade fan-out network calls, prune dead branches"
+      },
+      {
+        "type": "fix",
+        "text": "** target develop in BOM cascade fan-out"
+      },
+      {
+        "type": "fix",
+        "text": "** add -parameters compiler flag for Spring Boot 3.2+ compatibility"
+      },
+      {
+        "type": "fix",
+        "text": "** add -parameters compiler flag for Spring Boot 3.2+ compatibility"
+      },
+      {
+        "type": "fix",
+        "text": "** add captchaToken to ResetPasswordRequest"
+      },
+      {
+        "type": "fix",
+        "text": "** bind UserFavoriteMenu FK to UserProcess"
+      },
+      {
+        "type": "fix",
+        "text": "** correct schema name from icglb to icglb2 in audit entities"
+      },
+      {
+        "type": "fix",
+        "text": "** make SsoConfig redirect_uri nullable and fix SonarQube issues"
+      },
+      {
+        "type": "fix",
+        "text": "** map tenantless ICEntity6 DTOs (Icglb-Entities-1.0[#98](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/98))"
+      },
+      {
+        "type": "fix",
+        "text": "** remove @AuditField from @Id, add session createdDate"
+      },
+      {
+        "type": "fix",
+        "text": "** remove SNAPSHOT version, add semantic-release and CI/CD workflows"
+      },
+      {
+        "type": "fix",
+        "text": "** remove SNAPSHOT versions and fix CI workflows"
+      },
+      {
+        "type": "fix",
+        "text": "** replace java.util.Date with Instant in UserInfoValidation"
+      },
+      {
+        "type": "fix",
+        "text": "** throw MissingUserContextException instead of returning null"
+      },
+      {
+        "type": "fix",
+        "text": "** tolerate orphan Corporation FK on CorporationContact"
+      },
+      {
+        "type": "fix",
+        "text": "** update icom-api to 4.0.1 and use PAT for semantic-release"
+      },
+      {
+        "type": "fix",
+        "text": "** use TableGenerator for SecurityAudit entity"
+      },
+      {
+        "type": "fix",
+        "text": "** validate persisted email addresses, closes [icombilisim/Icglb-Services-1.0#391](https://github.com/icombilisim/Icglb-Services-1.0/issues/391)"
+      },
+      {
+        "type": "fix",
+        "text": "** validate SecuritySeedRequest fields to prevent null projectCode"
+      },
+      {
+        "type": "fix",
+        "text": "** widen verification_token column length for AES/GCM encryption"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.22.0 -> 1.23.0 (cascade from icombilisim/Icglb-Entities-1.0 v1.23.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.23.0 -> 1.23.1 (cascade from icombilisim/Icglb-Entities-1.0 v1.23.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.23.1 -> 1.24.0 (cascade from icombilisim/Icglb-Entities-1.0 v1.24.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.24.0 -> 1.25.0 (cascade from icombilisim/Icglb-Entities-1.0 v1.25.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.25.0 -> 1.26.0 (cascade from icombilisim/Icglb-Entities-1.0 v1.26.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.25.0 -> 1.26.0 (repair empty cascade [#21](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/21))"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.26.0 -> 1.27.0 (cascade from icombilisim/Icglb-Entities-1.0 v1.27.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.27.0 -> 1.27.1 (cascade from icombilisim/Icglb-Entities-1.0 v1.27.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.27.1 -> 1.28.0 (cascade from icombilisim/Icglb-Entities-1.0 v1.28.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.28.0 -> 1.28.1 (cascade from icombilisim/Icglb-Entities-1.0 v1.28.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.28.1 -> 1.28.2 (cascade from icombilisim/Icglb-Entities-1.0 v1.28.2)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.28.2 -> 1.29.0 (cascade from icombilisim/Icglb-Entities-1.0 v1.29.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.29.0 -> 1.29.1 (cascade from icombilisim/Icglb-Entities-1.0 v1.29.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.29.1 -> 1.30.0 (cascade from icombilisim/Icglb-Entities-1.0 v1.30.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.30.0 -> 1.30.1 (cascade from icombilisim/Icglb-Entities-1.0 v1.30.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.30.0 -> 1.30.2 (cascade from icombilisim/Icglb-Entities-1.0 v1.30.2)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.30.2 -> 1.31.0 (cascade from icombilisim/Icglb-Entities-1.0 v1.31.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.31.0 -> 1.32.0 (cascade from icombilisim/Icglb-Entities-1.0 v1.32.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icglb-entities.version 1.32.0 -> 1.32.2 (cascade from icombilisim/Icglb-Entities-1.0 v1.32.2)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-api.version 4.6.0 -> 4.7.1 (cascade from icombilisim/ICOM-Api-4.0 v4.7.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-api.version 4.7.0 -> 4.7.1 (cascade from icombilisim/ICOM-Api-4.0 v4.7.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-api.version 4.7.1 -> 4.7.2 (cascade from icombilisim/ICOM-Api-4.0 v4.7.2)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-api.version 4.7.1 -> 4.7.2 (cascade from icombilisim/ICOM-Api-4.0 v4.7.2)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.10.0 -> 2.10.1 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.10.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.10.1 -> 2.10.2 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.10.2)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.10.2 -> 2.10.3 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.10.3)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.10.3 -> 2.11.0 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.0 -> 2.11.1 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.1 -> 2.11.2 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.2)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.10 -> 2.11.11 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.11)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.11 -> 2.11.12 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.12)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.12 -> 2.11.13 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.13)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.13 -> 2.11.15 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.15)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.2 -> 2.11.3 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.3)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.3 -> 2.11.4 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.4)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.4 -> 2.11.5 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.5)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.5 -> 2.11.6 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.6)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.6 -> 2.11.7 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.7)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.7 -> 2.11.8 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.8)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.8 -> 2.11.9 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.9)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.11.9 -> 2.11.10 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.11.10)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.3.10 -> 2.3.11 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.3.11)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.3.11 -> 2.3.12 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.3.12)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.3.12 -> 2.4.0 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.4.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.3.8 -> 2.3.9 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.3.9)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.3.9 -> 2.3.10 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.3.10)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.4.0 -> 2.4.1 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.4.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.4.1 -> 2.5.0 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.5.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.5.0 -> 2.5.1 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.5.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.5.1 -> 2.5.2 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.5.2)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.5.2 -> 2.6.0 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.6.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.6.0 -> 2.6.1 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.6.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.6.1 -> 2.7.0 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.7.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.7.0 -> 2.7.1 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.7.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.7.1 -> 2.7.2 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.7.2)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.7.10 -> 2.7.11 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.7.11)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.7.11 -> 2.7.12 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.7.12)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.7.12 -> 2.8.0 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.8.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.7.2 -> 2.7.3 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.7.3)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.7.3 -> 2.7.4 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.7.4)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.7.4 -> 2.7.5 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.7.5)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.7.5 -> 2.7.6 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.7.6)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.7.8 -> 2.7.9 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.7.9)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.7.9 -> 2.7.10 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.7.10)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.8.0 -> 2.8.1 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.8.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.8.1 -> 2.9.0 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.9.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.9.0 -> 2.9.1 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.9.1)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.9.1 -> 2.9.2 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.9.2)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.9.2 -> 2.9.3 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.9.3)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.9.3 -> 2.9.4 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.9.4)"
+      },
+      {
+        "type": "fix",
+        "text": "** bump icom-microservices-core.version 2.9.4 -> 2.10.0 (cascade from icombilisim/ICOM-Micro-Services-Api-1.0 v2.10.0)"
+      },
+      {
+        "type": "fix",
+        "text": "** correct icom-microservices-core to 2.3.12 (missed in conflict resolve)"
+      },
+      {
+        "type": "fix",
+        "text": "** include microservices core 2.7.8 in cascade"
+      },
+      {
+        "type": "fix",
+        "text": "** re-apply dropped icom-microservices-core.version 2.7.3 -> 2.7.4 bump, closes [#28](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/28)"
+      },
+      {
+        "type": "fix",
+        "text": "** complete @AuditField i18nKey coverage, closes [ICoSys-Web-React-1.0#455](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/455) [ICoSys-INFRA#191](https://github.com/icombilisim/ICoSys-INFRA/issues/191) [ICoSys-INFRA#191](https://github.com/icombilisim/ICoSys-INFRA/issues/191)"
+      },
+      {
+        "type": "fix",
+        "text": "** revert platform-role schema additions that crash consumers"
+      },
+      {
+        "type": "fix",
+        "text": "** stop two removing cascades from wiping audited records, closes [INFRA#246](https://github.com/icombilisim/INFRA/issues/246) [#268](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/268)"
+      },
+      {
+        "type": "fix",
+        "text": "** publish PII key atomically"
+      }
+    ]
+  },
+  {
     "version": "2.11.15",
     "date": "2026-08-03",
     "module": "core",
