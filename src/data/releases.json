@@ -1,5 +1,18 @@
 [
   {
+    "version": "5.1.2",
+    "date": "2026-08-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "** use the runner's Python instead of installing one",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** use the runner's Python instead of installing one"
+      }
+    ]
+  },
+  {
     "version": "5.1.1",
     "date": "2026-08-04",
     "module": "core",
