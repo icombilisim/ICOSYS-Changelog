@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.0.1",
+    "date": "2026-08-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "** give encryption a working \"off\" mode instead of a broken one",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** give encryption a working \"off\" mode instead of a broken one"
+      }
+    ]
+  },
+  {
     "version": "6.0.0",
     "date": "2026-08-04",
     "module": "core",
