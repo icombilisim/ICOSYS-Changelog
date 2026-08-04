@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.0.0",
+    "date": "2026-08-04",
+    "module": "core",
+    "breaking": true,
+    "summary": "com.icom:icom-api, com.icom:icglb-entities,",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "com.icom:icom-api, com.icom:icglb-entities,"
+      }
+    ]
+  },
+  {
     "version": "5.1.7",
     "date": "2026-08-04",
     "module": "core",
