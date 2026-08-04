@@ -1,5 +1,18 @@
 [
   {
+    "version": "5.1.5",
+    "date": "2026-08-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "** open cascade PRs against the target repo's default branch, closes [#174](https://github.com/icomb",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** open cascade PRs against the target repo's default branch, closes [#174](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/174)"
+      }
+    ]
+  },
+  {
     "version": "5.1.4",
     "date": "2026-08-04",
     "module": "core",
