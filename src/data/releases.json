@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.0.2",
+    "date": "2026-08-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "** refuse to start with encryption off under prod or test",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** refuse to start with encryption off under prod or test"
+      }
+    ]
+  },
+  {
     "version": "6.0.1",
     "date": "2026-08-04",
     "module": "core",
