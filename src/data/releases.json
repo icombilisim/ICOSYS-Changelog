@@ -1,5 +1,18 @@
 [
   {
+    "version": "5.0.4",
+    "date": "2026-08-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "remove 18 classes nothing references ([#159](https://github.com/icombilisim/ICOM-Micro-Services-Api-",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "remove 18 classes nothing references ([#159](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/159)) ([#167](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/167)) ([827790e](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/commit/827790e8acc6df9c4314c0ffb8f3a2306efa3200))"
+      }
+    ]
+  },
+  {
     "version": "5.0.3",
     "date": "2026-08-03",
     "module": "core",
