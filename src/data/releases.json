@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.0.4",
+    "date": "2026-08-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "** preserve legacy PII reads during Vault cutover",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** preserve legacy PII reads during Vault cutover"
+      }
+    ]
+  },
+  {
     "version": "6.0.3",
     "date": "2026-08-04",
     "module": "core",
