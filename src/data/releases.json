@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.0.3",
+    "date": "2026-08-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "** stop the protected-profile check from failing every JUnit context",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** stop the protected-profile check from failing every JUnit context"
+      }
+    ]
+  },
+  {
     "version": "6.0.2",
     "date": "2026-08-04",
     "module": "core",
