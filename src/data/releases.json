@@ -1,5 +1,18 @@
 [
   {
+    "version": "5.1.3",
+    "date": "2026-08-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "remove the three classes the audit flagged ([#159](https://github.com/icombilisim/ICOM-Micro-Service",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "remove the three classes the audit flagged ([#159](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/159)) ([#173](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/173)) ([997250d](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/commit/997250d319e522b28f4e4fb43ec07de1efab47c3)), closes [#172](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/172) [icombilisim/Icglb-Services-1.0#532](https://github.com/icombilisim/Icglb-Services-1.0/issues/532)"
+      }
+    ]
+  },
+  {
     "version": "5.1.2",
     "date": "2026-08-04",
     "module": "core",
