@@ -1,5 +1,18 @@
 [
   {
+    "version": "5.1.4",
+    "date": "2026-08-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "** cascade to the services, not to the retired BOM repo, closes [#95](https://github.com/icombilisim",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** cascade to the services, not to the retired BOM repo, closes [#95](https://github.com/icombilisim/ICOM-Micro-Services-Api-1.0/issues/95)"
+      }
+    ]
+  },
+  {
     "version": "5.1.3",
     "date": "2026-08-04",
     "module": "core",
