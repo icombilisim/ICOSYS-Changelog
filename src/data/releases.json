@@ -1,5 +1,18 @@
 [
   {
+    "version": "5.1.0",
+    "date": "2026-08-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "** audit the shared surface weekly and file drift as an issue",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** audit the shared surface weekly and file drift as an issue"
+      }
+    ]
+  },
+  {
     "version": "5.0.4",
     "date": "2026-08-04",
     "module": "core",
