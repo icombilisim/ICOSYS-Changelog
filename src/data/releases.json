@@ -1,5 +1,18 @@
 [
   {
+    "version": "5.1.1",
+    "date": "2026-08-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "** clone the services with a token that can actually see them",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** clone the services with a token that can actually see them"
+      }
+    ]
+  },
+  {
     "version": "5.1.0",
     "date": "2026-08-04",
     "module": "core",
