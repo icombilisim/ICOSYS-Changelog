@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.0.5",
+    "date": "2026-08-05",
+    "module": "core",
+    "breaking": false,
+    "summary": "** protect the TEST server under its own staging profile, closes [#192](https://github.com/icombilis",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** protect the TEST server under its own staging profile, closes [#192](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/192)"
+      }
+    ]
+  },
+  {
     "version": "6.0.4",
     "date": "2026-08-04",
     "module": "core",
