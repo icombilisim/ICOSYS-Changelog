@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.1.0",
+    "date": "2026-08-08",
+    "module": "core",
+    "breaking": false,
+    "summary": "** named template variants per document type with a default selector",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** named template variants per document type with a default selector"
+      }
+    ]
+  },
+  {
     "version": "6.0.5",
     "date": "2026-08-05",
     "module": "core",
