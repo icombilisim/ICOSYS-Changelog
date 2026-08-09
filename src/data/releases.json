@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.1.6",
+    "date": "2026-08-09",
+    "module": "core",
+    "breaking": false,
+    "summary": "** call DMS download-url on the internal S2S path, closes [#353](https://github.com/icombilisim/ICOS",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** call DMS download-url on the internal S2S path, closes [#353](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/353) [PR#210](https://github.com/icombilisim/PR/issues/210)"
+      }
+    ]
+  },
+  {
     "version": "6.1.5",
     "date": "2026-08-09",
     "module": "core",
