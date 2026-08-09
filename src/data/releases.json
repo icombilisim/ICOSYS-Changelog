@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.1.1",
+    "date": "2026-08-09",
+    "module": "core",
+    "breaking": false,
+    "summary": "** keep template resolution working when a variant is duplicated, closes [#195](https://github.com/i",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** keep template resolution working when a variant is duplicated, closes [#195](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/195) [#195](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/195)"
+      }
+    ]
+  },
+  {
     "version": "6.1.0",
     "date": "2026-08-08",
     "module": "core",
