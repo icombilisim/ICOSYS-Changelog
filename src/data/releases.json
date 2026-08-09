@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.1.5",
+    "date": "2026-08-09",
+    "module": "core",
+    "breaking": false,
+    "summary": "** refuse a sort that ends on an association",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** refuse a sort that ends on an association"
+      }
+    ]
+  },
+  {
     "version": "6.1.4",
     "date": "2026-08-09",
     "module": "core",
