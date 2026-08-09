@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.1.2",
+    "date": "2026-08-09",
+    "module": "core",
+    "breaking": false,
+    "summary": "** gate templates on entity-level authorities, closes [#199](https://github.com/icombilisim/ICOSYS-P",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** gate templates on entity-level authorities, closes [#199](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/199)"
+      }
+    ]
+  },
+  {
     "version": "6.1.1",
     "date": "2026-08-09",
     "module": "core",
