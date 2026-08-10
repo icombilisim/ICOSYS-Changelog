@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.4.1",
+    "date": "2026-08-10",
+    "module": "core",
+    "breaking": false,
+    "summary": "** mark RoleHoldersClient's injection constructor so consumer contexts start",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** mark RoleHoldersClient's injection constructor so consumer contexts start"
+      }
+    ]
+  },
+  {
     "version": "6.4.0",
     "date": "2026-08-10",
     "module": "core",
