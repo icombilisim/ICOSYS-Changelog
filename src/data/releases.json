@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.2.0",
+    "date": "2026-08-10",
+    "module": "core",
+    "breaking": false,
+    "summary": "** carry step objections in callback contract",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** carry step objections in callback contract"
+      }
+    ]
+  },
+  {
     "version": "6.1.6",
     "date": "2026-08-09",
     "module": "core",
