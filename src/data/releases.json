@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.4.0",
+    "date": "2026-08-10",
+    "module": "core",
+    "breaking": false,
+    "summary": "** shared RoleHoldersClient and objection decider code, closes [icwfl#226](https://github.com/icombi",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** shared RoleHoldersClient and objection decider code, closes [icwfl#226](https://github.com/icombilisim/icwfl/issues/226)"
+      }
+    ]
+  },
+  {
     "version": "6.3.0",
     "date": "2026-08-10",
     "module": "core",
