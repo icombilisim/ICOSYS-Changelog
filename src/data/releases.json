@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.3.0",
+    "date": "2026-08-10",
+    "module": "core",
+    "breaking": false,
+    "summary": "** carry approval cycle on objection payload",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** carry approval cycle on objection payload"
+      }
+    ]
+  },
+  {
     "version": "6.2.0",
     "date": "2026-08-10",
     "module": "core",
