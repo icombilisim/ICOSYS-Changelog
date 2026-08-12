@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.5.0",
+    "date": "2026-08-12",
+    "module": "core",
+    "breaking": false,
+    "summary": "** promote the record-link resolver to the shared platform, closes [BPM#416](https://github.com/icom",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** promote the record-link resolver to the shared platform, closes [BPM#416](https://github.com/icombilisim/BPM/issues/416) [Icglb-Services-1.0#588](https://github.com/icombilisim/Icglb-Services-1.0/issues/588) [icombilisim/Icglb-Services-1.0#588](https://github.com/icombilisim/Icglb-Services-1.0/issues/588)"
+      }
+    ]
+  },
+  {
     "version": "6.4.1",
     "date": "2026-08-10",
     "module": "core",
