@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.5.1",
+    "date": "2026-08-13",
+    "module": "core",
+    "breaking": false,
+    "summary": "** register Module beans on the shared ObjectMapper",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** register Module beans on the shared ObjectMapper"
+      }
+    ]
+  },
+  {
     "version": "6.5.0",
     "date": "2026-08-12",
     "module": "core",
