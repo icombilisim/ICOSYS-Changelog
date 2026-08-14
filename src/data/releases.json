@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.5.2",
+    "date": "2026-08-14",
+    "module": "core",
+    "breaking": false,
+    "summary": "** refuse a sort entry with no field instead of 500ing, closes [#201](https://github.com/icombilisim",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** refuse a sort entry with no field instead of 500ing, closes [#201](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/201) [#579](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/579) [Icglb-Services-1.0#664](https://github.com/icombilisim/Icglb-Services-1.0/issues/664)"
+      }
+    ]
+  },
+  {
     "version": "6.5.1",
     "date": "2026-08-13",
     "module": "core",
