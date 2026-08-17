@@ -1,5 +1,18 @@
 [
   {
+    "version": "6.5.3",
+    "date": "2026-08-17",
+    "module": "core",
+    "breaking": false,
+    "summary": "** drop the removing cascade from UserInfo.userLogon, closes [Icglb#671](https://github.com/icombili",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** drop the removing cascade from UserInfo.userLogon, closes [Icglb#671](https://github.com/icombilisim/Icglb/issues/671)"
+      }
+    ]
+  },
+  {
     "version": "6.5.2",
     "date": "2026-08-14",
     "module": "core",
