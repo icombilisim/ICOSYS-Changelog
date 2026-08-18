@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.0.0",
+    "date": "2026-08-18",
+    "module": "core",
+    "breaking": true,
+    "summary": "**paging:** PagingSupport.toPageable(PageRequest) is gone. Callers that want",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "**paging:** PagingSupport.toPageable(PageRequest) is gone. Callers that want"
+      }
+    ]
+  },
+  {
     "version": "6.5.3",
     "date": "2026-08-17",
     "module": "core",
