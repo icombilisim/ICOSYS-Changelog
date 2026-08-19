@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.1.0",
+    "date": "2026-08-19",
+    "module": "core",
+    "breaking": false,
+    "summary": "** expand tenant corporate profile with legal identity and branches (Icglb[#683](https://github.com/",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** expand tenant corporate profile with legal identity and branches (Icglb[#683](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/683))"
+      }
+    ]
+  },
+  {
     "version": "7.0.0",
     "date": "2026-08-18",
     "module": "core",
