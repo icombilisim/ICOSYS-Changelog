@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.2.1",
+    "date": "2026-08-20",
+    "module": "core",
+    "breaking": false,
+    "summary": "** tell the caller what is blocking a deletion, closes [Icglb#697](https://github.com/icombilisim/Ic",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** tell the caller what is blocking a deletion, closes [Icglb#697](https://github.com/icombilisim/Icglb/issues/697) [Icglb#699](https://github.com/icombilisim/Icglb/issues/699) [icombilisim/Icglb-Services-1.0#697](https://github.com/icombilisim/Icglb-Services-1.0/issues/697) [icombilisim/Icglb-Services-1.0#699](https://github.com/icombilisim/Icglb-Services-1.0/issues/699)"
+      }
+    ]
+  },
+  {
     "version": "7.2.0",
     "date": "2026-08-20",
     "module": "core",
