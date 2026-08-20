@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.1.1",
+    "date": "2026-08-20",
+    "module": "core",
+    "breaking": false,
+    "summary": "** bound the corporate profile fields on IcmAccountEditDto (Icglb[#694](https://github.com/icombilis",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** bound the corporate profile fields on IcmAccountEditDto (Icglb[#694](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/694)), closes [Icglb#690](https://github.com/icombilisim/Icglb/issues/690)"
+      }
+    ]
+  },
+  {
     "version": "7.1.0",
     "date": "2026-08-19",
     "module": "core",
