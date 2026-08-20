@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.3.0",
+    "date": "2026-08-20",
+    "module": "core",
+    "breaking": false,
+    "summary": "** persist scheduled job run history",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** persist scheduled job run history"
+      }
+    ]
+  },
+  {
     "version": "7.2.1",
     "date": "2026-08-20",
     "module": "core",
