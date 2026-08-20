@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.1.2",
+    "date": "2026-08-20",
+    "module": "core",
+    "breaking": false,
+    "summary": "** bound the two account fields [#694](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/694",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** bound the two account fields [#694](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/694) missed and assert fiscal shapes, closes [icombilisim/ICoSys-Web-React-1.0#824](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/824)"
+      }
+    ]
+  },
+  {
     "version": "7.1.1",
     "date": "2026-08-20",
     "module": "core",
