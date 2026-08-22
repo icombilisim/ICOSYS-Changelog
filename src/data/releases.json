@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.3.2",
+    "date": "2026-08-22",
+    "module": "core",
+    "breaking": false,
+    "summary": "** clear Sonar findings and enforce coverage ([#242](https://github.com/icombilisim/ICOSYS-Platform-",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** clear Sonar findings and enforce coverage ([#242](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/242), [#243](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/243))"
+      }
+    ]
+  },
+  {
     "version": "7.3.1",
     "date": "2026-08-20",
     "module": "core",
