@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.3.3",
+    "date": "2026-08-23",
+    "module": "core",
+    "breaking": false,
+    "summary": "** make repository guard compile in Eclipse (INFRA[#341](https://github.com/icombilisim/ICOSYS-Platf",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** make repository guard compile in Eclipse (INFRA[#341](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/341))"
+      }
+    ]
+  },
+  {
     "version": "7.3.2",
     "date": "2026-08-22",
     "module": "core",
