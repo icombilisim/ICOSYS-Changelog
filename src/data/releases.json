@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.3.4",
+    "date": "2026-08-31",
+    "module": "core",
+    "breaking": false,
+    "summary": "** record a user's address, phone and e-mail changes on their own timeline",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** record a user's address, phone and e-mail changes on their own timeline"
+      }
+    ]
+  },
+  {
     "version": "7.3.3",
     "date": "2026-08-23",
     "module": "core",
