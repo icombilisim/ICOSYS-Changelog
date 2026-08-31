@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.4.0",
+    "date": "2026-08-31",
+    "module": "core",
+    "breaking": false,
+    "summary": "** carry effective group IDs in JWT context, closes [#249](https://github.com/icombilisim/ICOSYS-Pla",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** carry effective group IDs in JWT context, closes [#249](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/249) [#249](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/249)"
+      }
+    ]
+  },
+  {
     "version": "7.3.4",
     "date": "2026-08-31",
     "module": "core",
