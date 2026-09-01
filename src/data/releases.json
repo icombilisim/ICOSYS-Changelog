@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.5.0",
+    "date": "2026-09-01",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add the attachment authorization contract",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add the attachment authorization contract"
+      }
+    ]
+  },
+  {
     "version": "7.4.0",
     "date": "2026-08-31",
     "module": "core",
