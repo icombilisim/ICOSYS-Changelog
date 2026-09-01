@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.6.0",
+    "date": "2026-09-01",
+    "module": "core",
+    "breaking": false,
+    "summary": "** share the decision, keep the catalogue in the module",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** share the decision, keep the catalogue in the module"
+      }
+    ]
+  },
+  {
     "version": "7.5.0",
     "date": "2026-09-01",
     "module": "core",
