@@ -21,7 +21,11 @@ jobs:
   # because the broken file only takes effect once it is on the branch the run is FOR.
   # Ported from ICoSys-Web-React-1.0#1141.
   no-control-characters:
-    runs-on: [self-hosted, linux, x64]
+    # GitHub-hosted: this is the org's only PUBLIC repository, and the self-hosted runner
+    # group has allows_public_repositories=false, so a self-hosted job here is never picked
+    # up — it sits queued forever (two Deploy runs had been waiting since morning). Hosted
+    # minutes are free on a public repo. (icombilisim/ICoSys-INFRA#578)
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
 
