@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.6.1",
+    "date": "2026-09-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "** fail closed on an unparsable license date, closes [icombilisim/Icglb-Services-1.0#760](https://gi",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** fail closed on an unparsable license date, closes [icombilisim/Icglb-Services-1.0#760](https://github.com/icombilisim/Icglb-Services-1.0/issues/760)"
+      }
+    ]
+  },
+  {
     "version": "7.6.0",
     "date": "2026-09-01",
     "module": "core",
