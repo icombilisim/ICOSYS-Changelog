@@ -1,0 +1,49 @@
+name: Workflow lint
+
+# Guards that read the workflow files themselves. A guard that runs only when someone
+# remembers protects nothing, so this runs on every PR touching .github/workflows.
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+
+  # A workflow file holding a control byte is not a workflow: GitHub refuses the whole file
+  # ("This run likely failed because of a workflow file issue") and EVERY run on that branch
+  # dies before its first job — no lint, no tests, no RC. React #1138 shipped a sed
+  # backreference whose `\1` had been turned into byte 0x01 by the shell that wrote the file;
+  # YAML parsers reject it, editors render it invisibly, and the PR's own checks were green
+  # because the broken file only takes effect once it is on the branch the run is FOR.
+  # Ported from ICoSys-Web-React-1.0#1141.
+  no-control-characters:
+    # GitHub-hosted: this is the org's only PUBLIC repository, and the self-hosted runner
+    # group has allows_public_repositories=false, so a self-hosted job here is never picked
+    # up — it sits queued forever (two Deploy runs had been waiting since morning). Hosted
+    # minutes are free on a public repo. (icombilisim/ICoSys-INFRA#578)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Reject control bytes in workflow files
+        run: |
+          set -euo pipefail
+          SCANNED="$(find .github/workflows -name '*.yml' -o -name '*.yaml' | wc -l)"
+          if [ "${SCANNED}" -lt 1 ]; then
+            echo "::error::scan sanity check — no workflow files found, the lint would pass on nothing"
+            exit 1
+          fi
+          # Tab, LF and CR are the only C0 bytes YAML allows; everything else fails the parser.
+          OFFENDERS="$(LC_ALL=C grep -rnlP '[\x00-\x08\x0B\x0C\x0E-\x1F]' .github/workflows/ \
+            --include='*.yml' --include='*.yaml' || true)"
+          if [ -n "${OFFENDERS}" ]; then
+            echo "::error::Control byte(s) inside a workflow file — GitHub will refuse the file and every run on the branch:"
+            echo "${OFFENDERS}"
+            echo "::error::Usually a backslash escape (\\1, \\n, \\x..) collapsed by the shell or tool that wrote the file."
+            exit 1
+          fi
+          echo "No control bytes in ${SCANNED} workflow file(s)."

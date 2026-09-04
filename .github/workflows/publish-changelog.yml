@@ -1,7 +1,9 @@
 name: Publish Changelog
 
 # This workflow runs in each PRIVATE repo when a release is published.
-# Copy this file to every private repo and set MODULE_NAME accordingly.
+# Copy this file to every private repo and set MODULE_NAME accordingly. It deliberately keeps
+# the self-hosted runner: it executes in those PRIVATE repos, where self-hosted works. It never
+# runs here (this repo publishes no releases). (icombilisim/ICoSys-INFRA#578)
 
 on:
   release:
