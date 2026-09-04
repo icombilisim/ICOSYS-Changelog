@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.6.2",
+    "date": "2026-09-04",
+    "module": "core",
+    "breaking": false,
+    "summary": "** optimize latest job run lookup",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** optimize latest job run lookup"
+      }
+    ]
+  },
+  {
     "version": "7.6.1",
     "date": "2026-09-04",
     "module": "core",
