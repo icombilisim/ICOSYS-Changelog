@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.7.0",
+    "date": "2026-09-07",
+    "module": "core",
+    "breaking": false,
+    "summary": "** key the blind index with HMAC-SHA256 derived from the DEK, closes [Icglb-Services-1.0#898](https:",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** key the blind index with HMAC-SHA256 derived from the DEK, closes [Icglb-Services-1.0#898](https://github.com/icombilisim/Icglb-Services-1.0/issues/898) [ICoSys-HR-Service-1.0#383](https://github.com/icombilisim/ICoSys-HR-Service-1.0/issues/383) [ICoSys-Legal-Service-1.0#54](https://github.com/icombilisim/ICoSys-Legal-Service-1.0/issues/54)"
+      }
+    ]
+  },
+  {
     "version": "7.6.2",
     "date": "2026-09-04",
     "module": "core",
