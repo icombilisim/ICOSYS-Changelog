@@ -1,5 +1,18 @@
 [
   {
+    "version": "7.7.1",
+    "date": "2026-09-07",
+    "module": "core",
+    "breaking": false,
+    "summary": "** convert case with Locale.ROOT so tr-TR JVMs keep I and i intact",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** convert case with Locale.ROOT so tr-TR JVMs keep I and i intact"
+      }
+    ]
+  },
+  {
     "version": "7.7.0",
     "date": "2026-09-07",
     "module": "core",
