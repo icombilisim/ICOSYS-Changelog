@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.0.1",
+    "date": "2026-09-08",
+    "module": "core",
+    "breaking": false,
+    "summary": "** keep PermissionAuthorizationConfiguration instantiable for Spring",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** keep PermissionAuthorizationConfiguration instantiable for Spring"
+      }
+    ]
+  },
+  {
     "version": "8.0.0",
     "date": "2026-09-08",
     "module": "core",
