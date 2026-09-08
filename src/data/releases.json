@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.0.0",
+    "date": "2026-09-08",
+    "module": "core",
+    "breaking": true,
+    "summary": "//github.com/icombilisim/ICOSYS-Platform-1.0/issues/275))",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "//github.com/icombilisim/ICOSYS-Platform-1.0/issues/275))"
+      }
+    ]
+  },
+  {
     "version": "7.8.0",
     "date": "2026-09-07",
     "module": "core",
