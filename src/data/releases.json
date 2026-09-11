@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.1.1",
+    "date": "2026-09-11",
+    "module": "core",
+    "breaking": false,
+    "summary": "** detect gates on the lexed text so a javadoc-quoted gate is never parsed, closes [#408](https://gi",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** detect gates on the lexed text so a javadoc-quoted gate is never parsed, closes [#408](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/408)"
+      }
+    ]
+  },
+  {
     "version": "8.1.0",
     "date": "2026-09-11",
     "module": "core",
