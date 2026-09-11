@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.3.0",
+    "date": "2026-09-11",
+    "module": "core",
+    "breaking": false,
+    "summary": "** typed tenant SoD policy contract, closed control registry and coverage guard base, closes [#247](",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** typed tenant SoD policy contract, closed control registry and coverage guard base, closes [#247](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/247)"
+      }
+    ]
+  },
+  {
     "version": "8.2.0",
     "date": "2026-09-11",
     "module": "core",
