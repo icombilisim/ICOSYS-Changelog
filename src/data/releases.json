@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.1.2",
+    "date": "2026-09-11",
+    "module": "core",
+    "breaking": false,
+    "summary": "** stop persisting 404s and add exception-log retention, closes [ICoSys-INFRA#576](https://github.co",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** stop persisting 404s and add exception-log retention, closes [ICoSys-INFRA#576](https://github.com/icombilisim/ICoSys-INFRA/issues/576)"
+      }
+    ]
+  },
+  {
     "version": "8.1.1",
     "date": "2026-09-11",
     "module": "core",
