@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.1.0",
+    "date": "2026-09-11",
+    "module": "core",
+    "breaking": false,
+    "summary": "** let creator-continuation evidence GETs carry a duty beside CREATE, closes [#n](https://github.com",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** let creator-continuation evidence GETs carry a duty beside CREATE, closes [#n](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/n) [699/#692](https://github.com/699/ICOSYS-Platform-1.0/issues/692) [#n](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/n)"
+      }
+    ]
+  },
+  {
     "version": "8.0.1",
     "date": "2026-09-08",
     "module": "core",
