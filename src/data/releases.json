@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.2.0",
+    "date": "2026-09-11",
+    "module": "core",
+    "breaking": false,
+    "summary": "** retention for @Retainable audit tables with a hash-chain anchor ([#295](https://github.com/icombi",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** retention for @Retainable audit tables with a hash-chain anchor ([#295](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/295), [#299](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/299)), closes [#281](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/281) [#281](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/281) [#281](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/281) [#281](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/281)"
+      }
+    ]
+  },
+  {
     "version": "8.1.2",
     "date": "2026-09-11",
     "module": "core",
