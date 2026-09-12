@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.4.0",
+    "date": "2026-09-12",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add trusted callback evidence contracts, closes [#410](https://github.com/icombilisim/ICOSYS-Plat",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add trusted callback evidence contracts, closes [#410](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/410) [icombilisim/ICoSys-Workflow-Service-1.0#410](https://github.com/icombilisim/ICoSys-Workflow-Service-1.0/issues/410)"
+      }
+    ]
+  },
+  {
     "version": "8.3.0",
     "date": "2026-09-11",
     "module": "core",
