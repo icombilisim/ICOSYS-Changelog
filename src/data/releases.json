@@ -1,5 +1,22 @@
 [
   {
+    "version": "8.5.0",
+    "date": "2026-09-13",
+    "module": "core",
+    "breaking": false,
+    "summary": "** resolve named templates by language, closes [icombilisim/ICoSys-INFRA#635](https://github.com/ico",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** resolve named templates by language, closes [icombilisim/ICoSys-INFRA#635](https://github.com/icombilisim/ICoSys-INFRA/issues/635)"
+      },
+      {
+        "type": "fix",
+        "text": "** resolve nightly findings blocking the Platform release"
+      }
+    ]
+  },
+  {
     "version": "8.4.0",
     "date": "2026-09-12",
     "module": "core",
