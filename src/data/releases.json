@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.5.1",
+    "date": "2026-09-14",
+    "module": "core",
+    "breaking": false,
+    "summary": "** make retention anchor bootstrap atomic, closes [icombilisim/Icglb-Services-1.0#987](https://githu",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** make retention anchor bootstrap atomic, closes [icombilisim/Icglb-Services-1.0#987](https://github.com/icombilisim/Icglb-Services-1.0/issues/987)"
+      }
+    ]
+  },
+  {
     "version": "8.5.0",
     "date": "2026-09-13",
     "module": "core",
