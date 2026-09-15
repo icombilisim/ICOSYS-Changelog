@@ -1,5 +1,26 @@
 [
   {
+    "version": "8.5.2",
+    "date": "2026-09-15",
+    "module": "core",
+    "breaking": false,
+    "summary": "** keep token version cache writes monotonic",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** keep token version cache writes monotonic"
+      },
+      {
+        "type": "fix",
+        "text": "** resolve token version Sonar findings"
+      },
+      {
+        "type": "fix",
+        "text": "** address nightly Sonar findings"
+      }
+    ]
+  },
+  {
     "version": "8.5.1",
     "date": "2026-09-14",
     "module": "core",
