@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.6.0",
+    "date": "2026-09-16",
+    "module": "core",
+    "breaking": false,
+    "summary": "** ONLYOFFICE editor-config, signed callback and DMS save normalization",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** ONLYOFFICE editor-config, signed callback and DMS save normalization"
+      }
+    ]
+  },
+  {
     "version": "8.5.2",
     "date": "2026-09-15",
     "module": "core",
