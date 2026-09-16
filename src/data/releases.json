@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.7.0",
+    "date": "2026-09-16",
+    "module": "core",
+    "breaking": false,
+    "summary": "** validate DOCX placeholder names against the handler catalog",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** validate DOCX placeholder names against the handler catalog"
+      }
+    ]
+  },
+  {
     "version": "8.6.0",
     "date": "2026-09-16",
     "module": "core",
