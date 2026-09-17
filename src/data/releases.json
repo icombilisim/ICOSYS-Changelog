@@ -1,5 +1,26 @@
 [
   {
+    "version": "8.8.0",
+    "date": "2026-09-17",
+    "module": "core",
+    "breaking": false,
+    "summary": "** rename a template variant in place, closes [icombilisim/ICoSys-Web-React-1.0#1441](https://github",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** rename a template variant in place, closes [icombilisim/ICoSys-Web-React-1.0#1441](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/1441)"
+      },
+      {
+        "type": "fix",
+        "text": "** warn when the DMS outbound API key is blank, closes [#1412](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/1412)"
+      },
+      {
+        "type": "fix",
+        "text": "** anchor template saves to the editing session"
+      }
+    ]
+  },
+  {
     "version": "8.7.0",
     "date": "2026-09-16",
     "module": "core",
