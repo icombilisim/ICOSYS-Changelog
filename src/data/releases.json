@@ -1,5 +1,30 @@
 [
   {
+    "version": "8.9.0",
+    "date": "2026-09-17",
+    "module": "core",
+    "breaking": false,
+    "summary": "** report missing and unknown template fields on upload",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** report missing and unknown template fields on upload"
+      },
+      {
+        "type": "fix",
+        "text": "** clear the last nightly Sonar findings"
+      },
+      {
+        "type": "fix",
+        "text": "** clear the nightly Sonar findings blocking the release"
+      },
+      {
+        "type": "fix",
+        "text": "** clear the remaining nightly Sonar findings"
+      }
+    ]
+  },
+  {
     "version": "8.8.0",
     "date": "2026-09-17",
     "module": "core",
