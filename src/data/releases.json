@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.11.0",
+    "date": "2026-09-18",
+    "module": "core",
+    "breaking": false,
+    "summary": "** persist the last save's template field report",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** persist the last save's template field report"
+      }
+    ]
+  },
+  {
     "version": "8.10.1",
     "date": "2026-09-18",
     "module": "core",
