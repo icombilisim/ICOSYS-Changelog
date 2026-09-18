@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.10.1",
+    "date": "2026-09-18",
+    "module": "core",
+    "breaking": false,
+    "summary": "** fan global variant rename out to every tenant",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** fan global variant rename out to every tenant"
+      }
+    ]
+  },
+  {
     "version": "8.10.0",
     "date": "2026-09-17",
     "module": "core",
