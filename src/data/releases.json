@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.16.0",
+    "date": "2026-09-20",
+    "module": "core",
+    "breaking": false,
+    "summary": "** backfill the files of GLOBAL templates created before [#349](https://github.com/icombilisim/ICOSY",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** backfill the files of GLOBAL templates created before [#349](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/349), closes [DMS#541](https://github.com/icombilisim/DMS/issues/541) [#352](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/352)"
+      }
+    ]
+  },
+  {
     "version": "8.15.0",
     "date": "2026-09-20",
     "module": "core",
