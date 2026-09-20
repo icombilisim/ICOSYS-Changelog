@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.14.1",
+    "date": "2026-09-20",
+    "module": "core",
+    "breaking": false,
+    "summary": "** promote a GLOBAL template's file off the tenant that uploaded it, closes [#349](https://github.co",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** promote a GLOBAL template's file off the tenant that uploaded it, closes [#349](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/349)"
+      }
+    ]
+  },
+  {
     "version": "8.14.0",
     "date": "2026-09-20",
     "module": "core",
