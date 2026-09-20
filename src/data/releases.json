@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.14.0",
+    "date": "2026-09-20",
+    "module": "core",
+    "breaking": false,
+    "summary": "** show a template's reported expressions on the document, closes [#347](https://github.com/icombili",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** show a template's reported expressions on the document, closes [#347](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/347)"
+      }
+    ]
+  },
+  {
     "version": "8.13.0",
     "date": "2026-09-20",
     "module": "core",
