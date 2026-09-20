@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.15.0",
+    "date": "2026-09-20",
+    "module": "core",
+    "breaking": false,
+    "summary": "** localized placeholder labels and declared picker groups",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** localized placeholder labels and declared picker groups"
+      }
+    ]
+  },
+  {
     "version": "8.14.1",
     "date": "2026-09-20",
     "module": "core",
