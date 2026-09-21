@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.17.0",
+    "date": "2026-09-21",
+    "module": "core",
+    "breaking": false,
+    "summary": "** key tenant default roles by member audience",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** key tenant default roles by member audience"
+      }
+    ]
+  },
+  {
     "version": "8.16.0",
     "date": "2026-09-20",
     "module": "core",
