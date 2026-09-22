@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.17.2",
+    "date": "2026-09-22",
+    "module": "core",
+    "breaking": false,
+    "summary": "** keep XDocReport merges out of the shared registry",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** keep XDocReport merges out of the shared registry"
+      }
+    ]
+  },
+  {
     "version": "8.17.1",
     "date": "2026-09-22",
     "module": "core",
