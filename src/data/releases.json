@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.17.1",
+    "date": "2026-09-22",
+    "module": "core",
+    "breaking": false,
+    "summary": "** give every XDocReport merge a unique report id",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** give every XDocReport merge a unique report id"
+      }
+    ]
+  },
+  {
     "version": "8.17.0",
     "date": "2026-09-21",
     "module": "core",
