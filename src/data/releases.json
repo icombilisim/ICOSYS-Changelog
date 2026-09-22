@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.17.3",
+    "date": "2026-09-22",
+    "module": "core",
+    "breaking": false,
+    "summary": "**platform:** resolve SonarQube findings ([#359](https://github.com/icombilisim/ICOSYS-Platform-1.0/",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "**platform:** resolve SonarQube findings ([#359](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/359)) ([#360](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/360)) ([bb1fb38](https://github.com/icombilisim/ICOSYS-Platform-1.0/commit/bb1fb3806e63b5c0ea751679b36416d4b129a1d5))"
+      }
+    ]
+  },
+  {
     "version": "8.17.2",
     "date": "2026-09-22",
     "module": "core",
