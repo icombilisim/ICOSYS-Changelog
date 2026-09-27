@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.18.0",
+    "date": "2026-09-27",
+    "module": "core",
+    "breaking": false,
+    "summary": "** let a callee stop trusting the shared API key (INFRA[#775](https://github.com/icombilisim/ICOSYS-",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** let a callee stop trusting the shared API key (INFRA[#775](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/775))"
+      }
+    ]
+  },
+  {
     "version": "8.17.3",
     "date": "2026-09-22",
     "module": "core",
