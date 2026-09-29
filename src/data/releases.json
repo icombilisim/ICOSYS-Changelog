@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.19.0",
+    "date": "2026-09-29",
+    "module": "core",
+    "breaking": false,
+    "summary": "** rotate the DEK in place and stop sharing one Vault path (ICoSys-INFRA[#774](https://github.com/ic",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** rotate the DEK in place and stop sharing one Vault path (ICoSys-INFRA[#774](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/774))"
+      }
+    ]
+  },
+  {
     "version": "8.18.0",
     "date": "2026-09-27",
     "module": "core",
