@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.19.1",
+    "date": "2026-09-30",
+    "module": "core",
+    "breaking": false,
+    "summary": "** rotate and reindex entities keyed by a composite id",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** rotate and reindex entities keyed by a composite id"
+      }
+    ]
+  },
+  {
     "version": "8.19.0",
     "date": "2026-09-29",
     "module": "core",
