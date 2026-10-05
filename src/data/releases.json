@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.20.0",
+    "date": "2026-10-05",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add describe contract for owner business facts, closes [icombilisim/ICoSys-DMS-Service-1.0#591](h",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add describe contract for owner business facts, closes [icombilisim/ICoSys-DMS-Service-1.0#591](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/591)"
+      }
+    ]
+  },
+  {
     "version": "8.19.1",
     "date": "2026-09-30",
     "module": "core",
