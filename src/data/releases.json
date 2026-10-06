@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.21.1",
+    "date": "2026-10-06",
+    "module": "core",
+    "breaking": false,
+    "summary": "** resolve client IP from trusted X-Real-IP only, closes [icombilisim/Icglb-Services-1.0#1112](https",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** resolve client IP from trusted X-Real-IP only, closes [icombilisim/Icglb-Services-1.0#1112](https://github.com/icombilisim/Icglb-Services-1.0/issues/1112) [icombilisim/Icglb-Services-1.0#1112](https://github.com/icombilisim/Icglb-Services-1.0/issues/1112)"
+      }
+    ]
+  },
+  {
     "version": "8.21.0",
     "date": "2026-10-06",
     "module": "core",
