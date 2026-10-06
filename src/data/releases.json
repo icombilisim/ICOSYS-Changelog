@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.21.0",
+    "date": "2026-10-06",
+    "module": "core",
+    "breaking": false,
+    "summary": "** add read partitions and the readable-scopes answer, closes [#480](https://github.com/icombilisim/",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** add read partitions and the readable-scopes answer, closes [#480](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/480) [icombilisim/ICoSys-DMS-Service-1.0#604](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/604) [icombilisim/ICoSys-DMS-Service-1.0#604](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/604)"
+      }
+    ]
+  },
+  {
     "version": "8.20.0",
     "date": "2026-10-05",
     "module": "core",
