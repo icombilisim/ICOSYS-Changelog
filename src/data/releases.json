@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.21.3",
+    "date": "2026-10-07",
+    "module": "core",
+    "breaking": false,
+    "summary": "** warn when a deployment trusts no reverse proxy, closes [icombilisim/Icglb-Services-1.0#1122](http",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** warn when a deployment trusts no reverse proxy, closes [icombilisim/Icglb-Services-1.0#1122](https://github.com/icombilisim/Icglb-Services-1.0/issues/1122)"
+      }
+    ]
+  },
+  {
     "version": "8.21.2",
     "date": "2026-10-07",
     "module": "core",
