@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.21.2",
+    "date": "2026-10-07",
+    "module": "core",
+    "breaking": false,
+    "summary": "** mask capability paths and Referer in the audit log (ICoSys-DMS-Service-1.0[#628](https://github.c",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** mask capability paths and Referer in the audit log (ICoSys-DMS-Service-1.0[#628](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/628)), closes [ICoSys-DMS-Service-1.0#615](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/615) [ICoSys-DMS-Service-1.0#615](https://github.com/icombilisim/ICoSys-DMS-Service-1.0/issues/615)"
+      }
+    ]
+  },
+  {
     "version": "8.21.1",
     "date": "2026-10-06",
     "module": "core",
