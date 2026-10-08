@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.21.5",
+    "date": "2026-10-08",
+    "module": "core",
+    "breaking": false,
+    "summary": "** preserve schema smoke and DOCX helpers, closes [#373](https://github.com/icombilisim/ICOSYS-Platf",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** preserve schema smoke and DOCX helpers, closes [#373](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/373)"
+      }
+    ]
+  },
+  {
     "version": "8.21.4",
     "date": "2026-10-08",
     "module": "core",
