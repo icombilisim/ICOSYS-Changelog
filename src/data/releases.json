@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.21.4",
+    "date": "2026-10-08",
+    "module": "core",
+    "breaking": false,
+    "summary": "** harden shared service boundaries",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** harden shared service boundaries"
+      }
+    ]
+  },
+  {
     "version": "8.21.3",
     "date": "2026-10-07",
     "module": "core",
