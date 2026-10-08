@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.21.6",
+    "date": "2026-10-08",
+    "module": "core",
+    "breaking": false,
+    "summary": "** restore XML escaping in the DOCX sandbox",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** restore XML escaping in the DOCX sandbox"
+      }
+    ]
+  },
+  {
     "version": "8.21.5",
     "date": "2026-10-08",
     "module": "core",
