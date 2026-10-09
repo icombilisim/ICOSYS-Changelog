@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.22.1",
+    "date": "2026-10-09",
+    "module": "core",
+    "breaking": false,
+    "summary": "**metrics:** remove dead request path normalisation ([#400](https://github.com/icombilisim/ICOSYS-Pl",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "**metrics:** remove dead request path normalisation ([#400](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/400)) ([#401](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/401)) ([5533d59](https://github.com/icombilisim/ICOSYS-Platform-1.0/commit/5533d59aee4400c2a9a19fa5349f3471ac673dc3)), closes [#391](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/391)"
+      }
+    ]
+  },
+  {
     "version": "8.22.0",
     "date": "2026-10-08",
     "module": "core",
