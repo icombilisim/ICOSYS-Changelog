@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.22.2",
+    "date": "2026-10-11",
+    "module": "core",
+    "breaking": false,
+    "summary": "** keep 30 days of scheduled job run history, not 90, closes [icombilisim/ICoSys-INFRA#905](https://",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** keep 30 days of scheduled job run history, not 90, closes [icombilisim/ICoSys-INFRA#905](https://github.com/icombilisim/ICoSys-INFRA/issues/905)"
+      }
+    ]
+  },
+  {
     "version": "8.22.1",
     "date": "2026-10-09",
     "module": "core",
