@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.24.0",
+    "date": "2026-10-12",
+    "module": "core",
+    "breaking": false,
+    "summary": "** branch and department parts with scoped counters, closes [Icglb#1167](https://github.com/icombili",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** branch and department parts with scoped counters, closes [Icglb#1167](https://github.com/icombilisim/Icglb/issues/1167) [icombilisim/Icglb-Services-1.0#1167](https://github.com/icombilisim/Icglb-Services-1.0/issues/1167)"
+      }
+    ]
+  },
+  {
     "version": "8.23.0",
     "date": "2026-10-12",
     "module": "core",
