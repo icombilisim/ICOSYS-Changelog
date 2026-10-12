@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.23.0",
+    "date": "2026-10-12",
+    "module": "core",
+    "breaking": false,
+    "summary": "** counter restarts, new pattern parts, real next codes, closes [icombilisim/Icglb-Services-1.0#1167",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** counter restarts, new pattern parts, real next codes, closes [icombilisim/Icglb-Services-1.0#1167](https://github.com/icombilisim/Icglb-Services-1.0/issues/1167)"
+      }
+    ]
+  },
+  {
     "version": "8.22.2",
     "date": "2026-10-11",
     "module": "core",
