@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.25.1",
+    "date": "2026-10-15",
+    "module": "core",
+    "breaking": false,
+    "summary": "** read public apply*/seed* names in exclusive-op ratchet, closes [#410](https://github.com/icombili",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** read public apply*/seed* names in exclusive-op ratchet, closes [#410](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/410)"
+      }
+    ]
+  },
+  {
     "version": "8.25.0",
     "date": "2026-10-14",
     "module": "core",
