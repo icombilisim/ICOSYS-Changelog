@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.26.0",
+    "date": "2026-10-16",
+    "module": "core",
+    "breaking": false,
+    "summary": "** tenant purge and export for tenant deletion (Icglb[#1191](https://github.com/icombilisim/ICOSYS-P",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** tenant purge and export for tenant deletion (Icglb[#1191](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/1191))"
+      }
+    ]
+  },
+  {
     "version": "8.25.1",
     "date": "2026-10-15",
     "module": "core",
