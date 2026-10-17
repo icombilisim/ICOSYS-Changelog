@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.27.0",
+    "date": "2026-10-17",
+    "module": "core",
+    "breaking": false,
+    "summary": "** label booleans and enums in the export language, closes [icombilisim/ICoSys-Web-React-1.0#1778](h",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** label booleans and enums in the export language, closes [icombilisim/ICoSys-Web-React-1.0#1778](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/1778)"
+      }
+    ]
+  },
+  {
     "version": "8.26.0",
     "date": "2026-10-16",
     "module": "core",
