@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.29.0",
+    "date": "2026-10-17",
+    "module": "core",
+    "breaking": false,
+    "summary": "** translatable record field kit and supported languages, closes [icombilisim/ICoSys-Web-React-1.0#1",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** translatable record field kit and supported languages, closes [icombilisim/ICoSys-Web-React-1.0#1778](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/1778) [icombilisim/ICoSys-Web-React-1.0#1778](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/1778) [icombilisim/ICoSys-Web-React-1.0#1778](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/1778)"
+      }
+    ]
+  },
+  {
     "version": "8.28.0",
     "date": "2026-10-17",
     "module": "core",
