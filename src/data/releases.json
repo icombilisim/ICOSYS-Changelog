@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.31.0",
+    "date": "2026-10-18",
+    "module": "core",
+    "breaking": false,
+    "summary": "** audit privilege grants, mandatory trail (INFRA[#931](https://github.com/icombilisim/ICOSYS-Platfo",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** audit privilege grants, mandatory trail (INFRA[#931](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/931))"
+      }
+    ]
+  },
+  {
     "version": "8.30.0",
     "date": "2026-10-17",
     "module": "core",
