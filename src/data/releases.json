@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.31.1",
+    "date": "2026-10-19",
+    "module": "core",
+    "breaking": false,
+    "summary": "** honor mandatory names on the manual audit path",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** honor mandatory names on the manual audit path"
+      }
+    ]
+  },
+  {
     "version": "8.31.0",
     "date": "2026-10-18",
     "module": "core",
