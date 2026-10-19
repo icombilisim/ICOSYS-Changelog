@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.32.0",
+    "date": "2026-10-19",
+    "module": "core",
+    "breaking": false,
+    "summary": "** refuse deleting a selected template; one default per group, closes [icombilisim/ICoSys-Web-React-",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** refuse deleting a selected template; one default per group, closes [icombilisim/ICoSys-Web-React-1.0#1787](https://github.com/icombilisim/ICoSys-Web-React-1.0/issues/1787)"
+      }
+    ]
+  },
+  {
     "version": "8.31.1",
     "date": "2026-10-19",
     "module": "core",
