@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.33.1",
+    "date": "2026-10-21",
+    "module": "core",
+    "breaking": false,
+    "summary": "** take the template default guard before the first read",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** take the template default guard before the first read"
+      }
+    ]
+  },
+  {
     "version": "8.33.0",
     "date": "2026-10-20",
     "module": "core",
