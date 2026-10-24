@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.33.2",
+    "date": "2026-10-24",
+    "module": "core",
+    "breaking": false,
+    "summary": "** close the 2026-10-24 audit root causes, closes [#376](https://github.com/icombilisim/ICOSYS-Platf",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** close the 2026-10-24 audit root causes, closes [#376](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/376) [#383](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/383) [#383](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/383) [#410](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/410)"
+      }
+    ]
+  },
+  {
     "version": "8.33.1",
     "date": "2026-10-21",
     "module": "core",
