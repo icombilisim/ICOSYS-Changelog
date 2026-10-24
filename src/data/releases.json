@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.34.0",
+    "date": "2026-10-24",
+    "module": "core",
+    "breaking": false,
+    "summary": "** ship reusable authorization and tenant-source contracts",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** ship reusable authorization and tenant-source contracts"
+      }
+    ]
+  },
+  {
     "version": "8.33.2",
     "date": "2026-10-24",
     "module": "core",
