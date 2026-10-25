@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.35.0",
+    "date": "2026-10-25",
+    "module": "core",
+    "breaking": false,
+    "summary": "** ship S2S contract, wiring, guard-presence and dead-method guards",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** ship S2S contract, wiring, guard-presence and dead-method guards"
+      }
+    ]
+  },
+  {
     "version": "8.34.0",
     "date": "2026-10-24",
     "module": "core",
