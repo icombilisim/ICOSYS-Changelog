@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.35.1",
+    "date": "2026-10-25",
+    "module": "core",
+    "breaking": false,
+    "summary": "** K1 mixed-handler SUPER_ADMIN path and K4 shared browser-path verbs",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** K1 mixed-handler SUPER_ADMIN path and K4 shared browser-path verbs"
+      }
+    ]
+  },
+  {
     "version": "8.35.0",
     "date": "2026-10-25",
     "module": "core",
