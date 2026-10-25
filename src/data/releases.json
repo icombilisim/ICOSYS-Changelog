@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.37.0",
+    "date": "2026-10-25",
+    "module": "core",
+    "breaking": false,
+    "summary": "** session org claims and tenant licence gate (DMS[#719](https://github.com/icombilisim/ICOSYS-Platf",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** session org claims and tenant licence gate (DMS[#719](https://github.com/icombilisim/ICOSYS-Platform-1.0/issues/719))"
+      }
+    ]
+  },
+  {
     "version": "8.36.1",
     "date": "2026-10-25",
     "module": "core",
