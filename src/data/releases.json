@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.36.0",
+    "date": "2026-10-25",
+    "module": "core",
+    "breaking": false,
+    "summary": "** allow operation-scoped K4 callee exemptions",
+    "changes": [
+      {
+        "type": "feat",
+        "text": "** allow operation-scoped K4 callee exemptions"
+      }
+    ]
+  },
+  {
     "version": "8.35.3",
     "date": "2026-10-25",
     "module": "core",
