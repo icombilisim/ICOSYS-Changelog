@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.36.1",
+    "date": "2026-10-25",
+    "module": "core",
+    "breaking": false,
+    "summary": "** read a negated SERVICE role as closed to services in K1",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** read a negated SERVICE role as closed to services in K1"
+      }
+    ]
+  },
+  {
     "version": "8.36.0",
     "date": "2026-10-25",
     "module": "core",
