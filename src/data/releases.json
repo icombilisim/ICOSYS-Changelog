@@ -1,5 +1,18 @@
 [
   {
+    "version": "8.35.2",
+    "date": "2026-10-25",
+    "module": "core",
+    "breaking": false,
+    "summary": "** scope S2S exemptions to one failure category",
+    "changes": [
+      {
+        "type": "fix",
+        "text": "** scope S2S exemptions to one failure category"
+      }
+    ]
+  },
+  {
     "version": "8.35.1",
     "date": "2026-10-25",
     "module": "core",
